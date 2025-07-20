@@ -2,7 +2,7 @@ import { afterAll, beforeAll, beforeEach, describe, expect, it, vi } from 'vites
 import type { App } from 'vue'
 import { createApp, nextTick } from 'vue'
 
-import { ConstantsUtil } from '@reown/appkit-common'
+import { ConstantsUtil } from '@cotofe/appkit-common'
 
 import {
   AccountController,

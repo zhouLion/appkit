@@ -7,10 +7,10 @@
     "build": "vite build"
   },
   "dependencies": {
-    "@reown/appkit-adapter-wagmi": "workspace:*",
-    "@reown/appkit-adapter-solana": "workspace:*",
-    "@reown/appkit-adapter-bitcoin": "workspace:*",
-    "@reown/appkit": "workspace:*",
+    "@cotofe/appkit-adapter-wagmi": "workspace:*",
+    "@cotofe/appkit-adapter-solana": "workspace:*",
+    "@cotofe/appkit-adapter-bitcoin": "workspace:*",
+    "@cotofe/appkit": "workspace:*",
     "ethers": "6.14.0"
   },
   "devDependencies": {

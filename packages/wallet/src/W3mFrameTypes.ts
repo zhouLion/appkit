@@ -1,6 +1,6 @@
 import { z } from 'zod'
 
-import type { CaipNetworkId, ChainNamespace } from '@reown/appkit-common'
+import type { CaipNetworkId, ChainNamespace } from '@cotofe/appkit-common'
 
 import type { W3mFrameRpcConstants } from './W3mFrameConstants.js'
 import {

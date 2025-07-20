@@ -8,8 +8,8 @@
   },
   "dependencies": {
     "@esbuild-plugins/node-globals-polyfill": "0.2.3",
-    "@reown/appkit": "workspace:*",
-    "@reown/appkit-siwx": "workspace:*",
+    "@cotofe/appkit": "workspace:*",
+    "@cotofe/appkit-siwx": "workspace:*",
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },

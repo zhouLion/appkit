@@ -1,4 +1,4 @@
-import '@reown/appkit-polyfills'
+import '@cotofe/appkit-polyfills'
 
 export { WagmiAdapter } from './client.js'
 

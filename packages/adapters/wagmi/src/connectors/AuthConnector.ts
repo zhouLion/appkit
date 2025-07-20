@@ -7,18 +7,18 @@ import {
   ConstantsUtil as CommonConstantsUtil,
   ConstantsUtil,
   type EmbeddedWalletTimeoutReason
-} from '@reown/appkit-common'
-import { NetworkUtil } from '@reown/appkit-common'
+} from '@cotofe/appkit-common'
+import { NetworkUtil } from '@cotofe/appkit-common'
 import {
   AlertController,
   ChainController,
   ConnectorController,
   SIWXUtil,
   getPreferredAccountType
-} from '@reown/appkit-controllers'
-import { ErrorUtil } from '@reown/appkit-utils'
-import { W3mFrameProvider } from '@reown/appkit-wallet'
-import { W3mFrameProviderSingleton } from '@reown/appkit/auth-provider'
+} from '@cotofe/appkit-controllers'
+import { ErrorUtil } from '@cotofe/appkit-utils'
+import { W3mFrameProvider } from '@cotofe/appkit-wallet'
+import { W3mFrameProviderSingleton } from '@cotofe/appkit/auth-provider'
 
 // -- Types ----------------------------------------------------------------------------------------
 interface W3mFrameProviderOptions {

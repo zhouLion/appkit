@@ -4,21 +4,21 @@ import { PublicKey, Connection as SolanaConnection } from '@solana/web3.js'
 import UniversalProvider from '@walletconnect/universal-provider'
 import bs58 from 'bs58'
 
-import { type AppKit, type AppKitOptions, WcHelpersUtil } from '@reown/appkit'
-import { ConstantsUtil as CommonConstantsUtil } from '@reown/appkit-common'
+import { type AppKit, type AppKitOptions, WcHelpersUtil } from '@cotofe/appkit'
+import { ConstantsUtil as CommonConstantsUtil } from '@cotofe/appkit-common'
 import {
   AlertController,
   ChainController,
   CoreHelperUtil,
   type Provider as CoreProvider,
   StorageUtil
-} from '@reown/appkit-controllers'
-import { ErrorUtil } from '@reown/appkit-utils'
-import { HelpersUtil } from '@reown/appkit-utils'
-import type { Provider as SolanaProvider } from '@reown/appkit-utils/solana'
-import { SolConstantsUtil } from '@reown/appkit-utils/solana'
-import { W3mFrameProvider } from '@reown/appkit-wallet'
-import { AdapterBlueprint } from '@reown/appkit/adapters'
+} from '@cotofe/appkit-controllers'
+import { ErrorUtil } from '@cotofe/appkit-utils'
+import { HelpersUtil } from '@cotofe/appkit-utils'
+import type { Provider as SolanaProvider } from '@cotofe/appkit-utils/solana'
+import { SolConstantsUtil } from '@cotofe/appkit-utils/solana'
+import { W3mFrameProvider } from '@cotofe/appkit-wallet'
+import { AdapterBlueprint } from '@cotofe/appkit/adapters'
 
 import { AuthProvider } from './providers/AuthProvider.js'
 import {
@@ -456,7 +456,7 @@ export class SolanaAdapter extends AdapterBlueprint<SolanaProvider> {
 
     if (this.registerWalletStandard) {
       const { SolanaWalletConnectStandardWallet } = await import(
-        '@reown/appkit-utils/wallet-standard'
+        '@cotofe/appkit-utils/wallet-standard'
       )
       SolanaWalletConnectStandardWallet.register(universalProvider)
     }

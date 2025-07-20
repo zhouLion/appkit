@@ -3,14 +3,14 @@ import { useState } from 'react'
 
 import { Card, CardBody, CardHeader, Heading, Stack, StackDivider } from '@chakra-ui/react'
 
-import type { ChainNamespace } from '@reown/appkit-common'
+import type { ChainNamespace } from '@cotofe/appkit-common'
 import {
   type Connection,
   useAppKitConnection,
   useAppKitConnections,
   useAppKitState,
   useDisconnect
-} from '@reown/appkit/react'
+} from '@cotofe/appkit/react'
 
 import { ConnectionList } from './Connection/ConnectionList'
 import { useChakraToast } from './Toast'

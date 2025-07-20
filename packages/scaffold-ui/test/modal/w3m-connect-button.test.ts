@@ -3,8 +3,8 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 
 import { html } from 'lit'
 
-import { ModalController } from '@reown/appkit-controllers'
-import type { WuiConnectButton } from '@reown/appkit-ui/wui-connect-button'
+import { ModalController } from '@cotofe/appkit-controllers'
+import type { WuiConnectButton } from '@cotofe/appkit-ui/wui-connect-button'
 
 import { W3mConnectButton } from '../../src/modal/w3m-connect-button'
 import { HelpersUtil } from '../utils/HelpersUtil'

@@ -1,4 +1,4 @@
-import { ConstantsUtil as CommonConstantsUtil } from '@reown/appkit-common'
+import { ConstantsUtil as CommonConstantsUtil } from '@cotofe/appkit-common'
 
 export const ConstantsUtil = {
   /* Connector names */

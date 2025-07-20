@@ -3,9 +3,9 @@
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { WagmiProvider } from 'wagmi'
 
-import { SolanaAdapter } from '@reown/appkit-adapter-solana/react'
-import { WagmiAdapter } from '@reown/appkit-adapter-wagmi'
-import { type AppKitNetwork, mainnet } from '@reown/appkit/networks'
+import { SolanaAdapter } from '@cotofe/appkit-adapter-solana/react'
+import { WagmiAdapter } from '@cotofe/appkit-adapter-wagmi'
+import { type AppKitNetwork, mainnet } from '@cotofe/appkit/networks'
 
 import { AppKitButtons } from '@/src/components/AppKitButtons'
 import { AppKitConnections } from '@/src/components/AppKitConnections'

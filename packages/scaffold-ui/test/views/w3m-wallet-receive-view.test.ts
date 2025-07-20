@@ -6,7 +6,7 @@ import {
   type CaipNetwork,
   type ChainNamespace,
   ConstantsUtil
-} from '@reown/appkit-common'
+} from '@cotofe/appkit-common'
 import {
   AccountController,
   type AccountControllerState,
@@ -18,8 +18,8 @@ import {
   type NetworkControllerClient,
   RouterController,
   SnackController
-} from '@reown/appkit-controllers'
-import { W3mFrameRpcConstants } from '@reown/appkit-wallet/utils'
+} from '@cotofe/appkit-controllers'
+import { W3mFrameRpcConstants } from '@cotofe/appkit-wallet/utils'
 
 import { W3mWalletReceiveView } from '../../src/views/w3m-wallet-receive-view'
 

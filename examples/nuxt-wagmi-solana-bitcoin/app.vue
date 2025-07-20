@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { createAppKit, useAppKitTheme } from '@reown/appkit/vue'
+import { createAppKit, useAppKitTheme } from '@cotofe/appkit/vue'
 
 import { bitcoinAdapter, networks, projectId, solanaAdapter, wagmiAdapter } from './config/appkit'
 

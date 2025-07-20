@@ -1,4 +1,4 @@
-import type { ChainNamespace } from '@reown/appkit-common'
+import type { ChainNamespace } from '@cotofe/appkit-common'
 import type {
   ConnectMethod,
   Features,
@@ -6,7 +6,7 @@ import type {
   ThemeMode,
   ThemeVariables,
   WalletFeature
-} from '@reown/appkit-controllers'
+} from '@cotofe/appkit-controllers'
 
 import { defaultCustomizationConfig } from '@/lib/defaultConfig'
 

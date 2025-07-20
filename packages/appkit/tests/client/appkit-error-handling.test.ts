@@ -1,10 +1,10 @@
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 
-import { AlertController } from '@reown/appkit-controllers'
-import { ErrorUtil } from '@reown/appkit-utils'
+import { AlertController } from '@cotofe/appkit-controllers'
+import { ErrorUtil } from '@cotofe/appkit-utils'
 
-vi.mock('@reown/appkit-controllers', async () => {
-  const actual = await vi.importActual('@reown/appkit-controllers')
+vi.mock('@cotofe/appkit-controllers', async () => {
+  const actual = await vi.importActual('@cotofe/appkit-controllers')
   return {
     ...actual,
     AlertController: {

@@ -7,8 +7,8 @@ import {
   ConnectorController,
   ModalController,
   StorageUtil
-} from '@reown/appkit-controllers'
-import { ProviderUtil } from '@reown/appkit-utils'
+} from '@cotofe/appkit-controllers'
+import { ProviderUtil } from '@cotofe/appkit-utils'
 
 import { AppKit } from '../../src/client/appkit.js'
 import { emitter, mockEvmAdapter, solanaEmitter } from '../mocks/Adapter'

@@ -1,12 +1,12 @@
-import { ConstantsUtil, NetworkUtil } from '@reown/appkit-common'
+import { ConstantsUtil, NetworkUtil } from '@cotofe/appkit-common'
 import {
   ChainController,
   CoreHelperUtil,
   type SIWXConfig,
   type SIWXMessage,
   type SIWXSession
-} from '@reown/appkit-controllers'
-import { HelpersUtil } from '@reown/appkit-utils'
+} from '@cotofe/appkit-controllers'
+import { HelpersUtil } from '@cotofe/appkit-utils'
 
 import type { AppKitSIWEClient } from '../exports/index.js'
 

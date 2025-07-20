@@ -5,9 +5,9 @@ import {
   type ChainNamespace,
   ConstantsUtil,
   ContractUtil
-} from '@reown/appkit-common'
-import { ChainController, ConnectionController, CoreHelperUtil } from '@reown/appkit-controllers'
-import { ProviderUtil } from '@reown/appkit-utils'
+} from '@cotofe/appkit-common'
+import { ChainController, ConnectionController, CoreHelperUtil } from '@cotofe/appkit-controllers'
+import { ProviderUtil } from '@cotofe/appkit-utils'
 
 import { AppKitPayError } from '../types/errors.js'
 import { AppKitPayErrorCodes } from '../types/errors.js'

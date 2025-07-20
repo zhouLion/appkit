@@ -4,8 +4,8 @@ import {
   type CaipNetwork,
   ConstantsUtil as CommonConstantsUtil,
   ConstantsUtil
-} from '@reown/appkit-common'
-import type { Connection } from '@reown/appkit-common'
+} from '@cotofe/appkit-common'
+import type { Connection } from '@cotofe/appkit-common'
 
 import {
   type AuthConnector,

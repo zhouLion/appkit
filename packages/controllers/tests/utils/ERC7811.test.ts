@@ -1,6 +1,6 @@
 import { afterEach, describe, expect, it, vi } from 'vitest'
 
-import { type Address, type Hex } from '@reown/appkit-common'
+import { type Address, type Hex } from '@cotofe/appkit-common'
 
 import { ERC7811Utils, type WalletGetAssetsResponse } from '../../src/utils/ERC7811Util'
 

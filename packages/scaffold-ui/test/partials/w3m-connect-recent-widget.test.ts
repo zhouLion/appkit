@@ -3,14 +3,14 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 
 import { html } from 'lit'
 
-import type { CaipNetworkId } from '@reown/appkit-common'
+import type { CaipNetworkId } from '@cotofe/appkit-common'
 import {
   ApiController,
   ChainController,
   ConnectorController,
   RouterController,
   StorageUtil
-} from '@reown/appkit-controllers'
+} from '@cotofe/appkit-controllers'
 
 import { W3mConnectRecentWidget } from '../../src/partials/w3m-connect-recent-widget'
 

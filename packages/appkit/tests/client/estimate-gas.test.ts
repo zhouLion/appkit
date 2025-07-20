@@ -1,9 +1,9 @@
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 
-import { type Address, ConstantsUtil, type Hex } from '@reown/appkit-common'
-import { ChainController } from '@reown/appkit-controllers'
-import type { AdapterNetworkState, EstimateGasTransactionArgs } from '@reown/appkit-controllers'
-import { ProviderUtil } from '@reown/appkit-utils'
+import { type Address, ConstantsUtil, type Hex } from '@cotofe/appkit-common'
+import { ChainController } from '@cotofe/appkit-controllers'
+import type { AdapterNetworkState, EstimateGasTransactionArgs } from '@cotofe/appkit-controllers'
+import { ProviderUtil } from '@cotofe/appkit-utils'
 
 import { AppKitBaseClient } from '../../src/client/appkit-base-client.js'
 import { mockEvmAdapter } from '../mocks/Adapter.js'

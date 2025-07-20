@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
-import { ReownAuthentication } from '@reown/appkit-siwx'
-import { mainnet, solana } from '@reown/appkit/networks'
-import { createAppKit } from '@reown/appkit/react'
+import { ReownAuthentication } from '@cotofe/appkit-siwx'
+import { mainnet, solana } from '@cotofe/appkit/networks'
+import { createAppKit } from '@cotofe/appkit/react'
 
 import App from './App.jsx'
 import './assets/main.css'

@@ -25,8 +25,8 @@ import {
 } from '@chakra-ui/react'
 import { useSnapshot } from 'valtio/react'
 
-import type { AppKitNetwork, CaipNetworkId, ChainNamespace } from '@reown/appkit-common'
-import { defineChain } from '@reown/appkit/networks'
+import type { AppKitNetwork, CaipNetworkId, ChainNamespace } from '@cotofe/appkit-common'
+import { defineChain } from '@cotofe/appkit/networks'
 
 import { AppKitStore } from '../utils/AppKitStore'
 

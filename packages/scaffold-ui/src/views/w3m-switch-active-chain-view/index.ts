@@ -2,9 +2,9 @@ import { LitElement, html } from 'lit'
 import { property } from 'lit/decorators.js'
 import { ifDefined } from 'lit/directives/if-defined.js'
 
-import { type ChainNamespace, ConstantsUtil } from '@reown/appkit-common'
-import { ChainController, ConnectorController, RouterController } from '@reown/appkit-controllers'
-import { type VisualType, customElement } from '@reown/appkit-ui'
+import { type ChainNamespace, ConstantsUtil } from '@cotofe/appkit-common'
+import { ChainController, ConnectorController, RouterController } from '@cotofe/appkit-controllers'
+import { type VisualType, customElement } from '@cotofe/appkit-ui'
 
 import styles from './styles.js'
 

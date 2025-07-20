@@ -2,11 +2,11 @@
 import { getWallets } from '@wallet-standard/app'
 import type { Wallet, WalletWithFeatures } from '@wallet-standard/base'
 
-import type { CaipNetwork } from '@reown/appkit-common'
-import type { Provider, RequestArguments } from '@reown/appkit-controllers'
-import { PresetsUtil } from '@reown/appkit-utils'
-import type { BitcoinConnector } from '@reown/appkit-utils/bitcoin'
-import { bitcoin, bitcoinTestnet } from '@reown/appkit/networks'
+import type { CaipNetwork } from '@cotofe/appkit-common'
+import type { Provider, RequestArguments } from '@cotofe/appkit-controllers'
+import { PresetsUtil } from '@cotofe/appkit-utils'
+import type { BitcoinConnector } from '@cotofe/appkit-utils/bitcoin'
+import { bitcoin, bitcoinTestnet } from '@cotofe/appkit/networks'
 
 import { MethodNotSupportedError } from '../errors/MethodNotSupportedError.js'
 import { AddressPurpose } from '../utils/BitcoinConnector.js'

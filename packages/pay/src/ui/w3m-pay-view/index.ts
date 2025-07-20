@@ -3,7 +3,7 @@ import { LitElement, html } from 'lit'
 import { state } from 'lit/decorators.js'
 import { ifDefined } from 'lit/directives/if-defined.js'
 
-import type { CaipNetworkId } from '@reown/appkit-common'
+import type { CaipNetworkId } from '@cotofe/appkit-common'
 import {
   AccountController,
   ChainController,
@@ -11,20 +11,20 @@ import {
   CoreHelperUtil,
   ModalController,
   SnackController
-} from '@reown/appkit-controllers'
-import { customElement } from '@reown/appkit-ui'
-import '@reown/appkit-ui/wui-button'
-import '@reown/appkit-ui/wui-flex'
-import '@reown/appkit-ui/wui-icon'
-import '@reown/appkit-ui/wui-icon-button'
-import '@reown/appkit-ui/wui-icon-link'
-import '@reown/appkit-ui/wui-image'
-import '@reown/appkit-ui/wui-list-item'
-import '@reown/appkit-ui/wui-loading-spinner'
-import '@reown/appkit-ui/wui-network-image'
-import '@reown/appkit-ui/wui-separator'
-import '@reown/appkit-ui/wui-text'
-import '@reown/appkit-ui/wui-wallet-image'
+} from '@cotofe/appkit-controllers'
+import { customElement } from '@cotofe/appkit-ui'
+import '@cotofe/appkit-ui/wui-button'
+import '@cotofe/appkit-ui/wui-flex'
+import '@cotofe/appkit-ui/wui-icon'
+import '@cotofe/appkit-ui/wui-icon-button'
+import '@cotofe/appkit-ui/wui-icon-link'
+import '@cotofe/appkit-ui/wui-image'
+import '@cotofe/appkit-ui/wui-list-item'
+import '@cotofe/appkit-ui/wui-loading-spinner'
+import '@cotofe/appkit-ui/wui-network-image'
+import '@cotofe/appkit-ui/wui-separator'
+import '@cotofe/appkit-ui/wui-text'
+import '@cotofe/appkit-ui/wui-wallet-image'
 
 import { PayController } from '../../controllers/PayController.js'
 import { isPayWithWalletSupported } from '../../utils/AssetUtil.js'

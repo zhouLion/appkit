@@ -2,8 +2,8 @@ import { BitcoinNetworkType } from 'sats-connect'
 import type { AddressPurpose, AddressType } from 'sats-connect'
 import { type Mock, beforeEach, describe, expect, it, vi } from 'vitest'
 
-import type { CaipNetwork } from '@reown/appkit-common'
-import { bitcoin, bitcoinTestnet } from '@reown/appkit/networks'
+import type { CaipNetwork } from '@cotofe/appkit-common'
+import { bitcoin, bitcoinTestnet } from '@cotofe/appkit/networks'
 
 import { LeatherConnector } from '../../src/connectors/LeatherConnector'
 import { SatsConnectConnector } from '../../src/connectors/SatsConnectConnector'

@@ -2,8 +2,8 @@ import type { Meta } from '@storybook/web-components'
 
 import { html } from 'lit'
 
-import type { WuiListAccount } from '@reown/appkit-ui/wui-list-account'
-import '@reown/appkit-ui/wui-list-token'
+import type { WuiListAccount } from '@cotofe/appkit-ui/wui-list-account'
+import '@cotofe/appkit-ui/wui-list-token'
 
 import '../../components/gallery-container'
 import { networkImageSrc } from '../../utils/PresetUtils'

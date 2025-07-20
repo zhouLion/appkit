@@ -7,9 +7,9 @@ import {
   type CaipAddress,
   ConstantsUtil as CommonConstantsUtil,
   NumberUtil
-} from '@reown/appkit-common'
-import { ContractUtil } from '@reown/appkit-common'
-import { W3mFrameRpcConstants } from '@reown/appkit-wallet/utils'
+} from '@cotofe/appkit-common'
+import { ContractUtil } from '@cotofe/appkit-common'
+import { W3mFrameRpcConstants } from '@cotofe/appkit-wallet/utils'
 
 import { BalanceUtil } from '../utils/BalanceUtil.js'
 import {

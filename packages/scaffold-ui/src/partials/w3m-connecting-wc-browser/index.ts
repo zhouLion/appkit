@@ -1,12 +1,12 @@
-import type { BaseError } from '@reown/appkit-controllers'
+import type { BaseError } from '@cotofe/appkit-controllers'
 import {
   ChainController,
   ConnectionController,
   ConnectorController,
   EventsController,
   ModalController
-} from '@reown/appkit-controllers'
-import { customElement } from '@reown/appkit-ui'
+} from '@cotofe/appkit-controllers'
+import { customElement } from '@cotofe/appkit-ui'
 
 import { W3mConnectingWidget } from '../../utils/w3m-connecting-widget/index.js'
 

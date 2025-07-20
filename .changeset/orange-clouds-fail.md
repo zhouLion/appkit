@@ -1,5 +1,5 @@
 ---
-'@reown/appkit-adapter-solana': patch
+'@cotofe/appkit-adapter-solana': patch
 ---
 
 Adds deprecation notice on unused wallets parameter on solana adapter

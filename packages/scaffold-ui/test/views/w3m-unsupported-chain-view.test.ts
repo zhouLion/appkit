@@ -3,7 +3,7 @@ import { beforeAll, beforeEach, describe, expect, it, vi } from 'vitest'
 
 import { html } from 'lit'
 
-import type { ChainNamespace } from '@reown/appkit-common'
+import type { ChainNamespace } from '@cotofe/appkit-common'
 import {
   ChainController,
   ConnectionController,
@@ -11,7 +11,7 @@ import {
   OptionsController,
   RouterController,
   SnackController
-} from '@reown/appkit-controllers'
+} from '@cotofe/appkit-controllers'
 
 import { W3mUnsupportedChainView } from '../../src/views/w3m-unsupported-chain-view/index'
 

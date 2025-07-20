@@ -2,8 +2,8 @@ import type { SessionTypes } from '@walletconnect/types'
 import type UniversalProvider from '@walletconnect/universal-provider'
 import { vi } from 'vitest'
 
-import type { BitcoinConnector } from '@reown/appkit-utils/bitcoin'
-import { bitcoin } from '@reown/appkit/networks'
+import type { BitcoinConnector } from '@cotofe/appkit-utils/bitcoin'
+import { bitcoin } from '@cotofe/appkit/networks'
 
 export function mockUniversalProvider(
   replaces: Partial<UniversalProvider> = {}

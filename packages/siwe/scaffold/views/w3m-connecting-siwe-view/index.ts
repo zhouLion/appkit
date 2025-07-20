@@ -10,9 +10,9 @@ import {
   RouterController,
   SnackController,
   getPreferredAccountType
-} from '@reown/appkit-controllers'
-import { customElement } from '@reown/appkit-ui'
-import { W3mFrameRpcConstants } from '@reown/appkit-wallet/utils'
+} from '@cotofe/appkit-controllers'
+import { customElement } from '@cotofe/appkit-ui'
+import { W3mFrameRpcConstants } from '@cotofe/appkit-wallet/utils'
 
 import { SIWEController } from '../../../core/controller/SIWEController.js'
 

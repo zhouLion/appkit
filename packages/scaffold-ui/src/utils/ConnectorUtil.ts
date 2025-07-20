@@ -1,4 +1,4 @@
-import { ConstantsUtil as CommonConstantsUtil } from '@reown/appkit-common'
+import { ConstantsUtil as CommonConstantsUtil } from '@cotofe/appkit-common'
 import {
   ApiController,
   ChainController,
@@ -13,8 +13,8 @@ import {
   type SocialProvider,
   StorageUtil,
   type WcWallet
-} from '@reown/appkit-controllers'
-import { HelpersUtil } from '@reown/appkit-utils'
+} from '@cotofe/appkit-controllers'
+import { HelpersUtil } from '@cotofe/appkit-utils'
 
 import { WalletUtil } from './WalletUtil.js'
 

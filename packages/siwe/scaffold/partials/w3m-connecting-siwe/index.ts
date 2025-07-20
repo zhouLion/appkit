@@ -1,7 +1,7 @@
 import { LitElement, html } from 'lit'
 
-import { AccountController, OptionsController } from '@reown/appkit-controllers'
-import { customElement } from '@reown/appkit-ui'
+import { AccountController, OptionsController } from '@cotofe/appkit-controllers'
+import { customElement } from '@cotofe/appkit-ui'
 
 import styles from './styles.js'
 

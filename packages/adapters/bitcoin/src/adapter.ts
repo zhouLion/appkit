@@ -6,14 +6,14 @@ import {
   CoreHelperUtil,
   type Provider,
   WcHelpersUtil
-} from '@reown/appkit'
-import { ConstantsUtil } from '@reown/appkit-common'
-import { ConstantsUtil as CommonConstantsUtil } from '@reown/appkit-common'
-import { ChainController, StorageUtil } from '@reown/appkit-controllers'
-import { HelpersUtil } from '@reown/appkit-utils'
-import { type BitcoinConnector, BitcoinConstantsUtil } from '@reown/appkit-utils/bitcoin'
-import { AdapterBlueprint } from '@reown/appkit/adapters'
-import { bitcoin } from '@reown/appkit/networks'
+} from '@cotofe/appkit'
+import { ConstantsUtil } from '@cotofe/appkit-common'
+import { ConstantsUtil as CommonConstantsUtil } from '@cotofe/appkit-common'
+import { ChainController, StorageUtil } from '@cotofe/appkit-controllers'
+import { HelpersUtil } from '@cotofe/appkit-utils'
+import { type BitcoinConnector, BitcoinConstantsUtil } from '@cotofe/appkit-utils/bitcoin'
+import { AdapterBlueprint } from '@cotofe/appkit/adapters'
+import { bitcoin } from '@cotofe/appkit/networks'
 
 import { BitcoinWalletConnectConnector } from './connectors/BitcoinWalletConnectConnector.js'
 import { LeatherConnector } from './connectors/LeatherConnector.js'

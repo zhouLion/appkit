@@ -1,8 +1,8 @@
 import { type Mock, beforeEach, describe, expect, it, vi } from 'vitest'
 
-import { type CaipNetwork, ConstantsUtil } from '@reown/appkit-common'
-import { ChainController } from '@reown/appkit-controllers'
-import { bitcoin, bitcoinTestnet } from '@reown/appkit/networks'
+import { type CaipNetwork, ConstantsUtil } from '@cotofe/appkit-common'
+import { ChainController } from '@cotofe/appkit-controllers'
+import { bitcoin, bitcoinTestnet } from '@cotofe/appkit/networks'
 
 import { BitcoinWalletConnectConnector } from '../../src/connectors/BitcoinWalletConnectConnector'
 import { mockUniversalProvider } from '../mocks/mockUniversalProvider'

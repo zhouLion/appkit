@@ -1,7 +1,7 @@
 import { elementUpdated, fixture, html, waitUntil } from '@open-wc/testing'
 import { afterEach, describe, expect, it, vi } from 'vitest'
 
-import { type CaipNetwork, type ChainNamespace, ConstantsUtil } from '@reown/appkit-common'
+import { type CaipNetwork, type ChainNamespace, ConstantsUtil } from '@cotofe/appkit-common'
 import {
   AccountController,
   ChainController,
@@ -9,8 +9,8 @@ import {
   ModalController,
   OptionsController,
   RouterController
-} from '@reown/appkit-controllers'
-import type { WuiAccountButton } from '@reown/appkit-ui/wui-account-button'
+} from '@cotofe/appkit-controllers'
+import type { WuiAccountButton } from '@cotofe/appkit-ui/wui-account-button'
 
 import { W3mAccountButton } from '../../src/modal/w3m-account-button'
 import { HelpersUtil } from '../utils/HelpersUtil'

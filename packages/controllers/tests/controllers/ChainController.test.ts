@@ -5,8 +5,8 @@ import {
   type CaipNetworkId,
   ConstantsUtil,
   SafeLocalStorageKeys
-} from '@reown/appkit-common'
-import { SafeLocalStorage } from '@reown/appkit-common'
+} from '@cotofe/appkit-common'
+import { SafeLocalStorage } from '@cotofe/appkit-common'
 
 import {
   AccountController,

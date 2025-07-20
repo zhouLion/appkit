@@ -1,5 +1,5 @@
-import type { CaipNetwork } from '@reown/appkit-common'
-import type { Connector, Provider } from '@reown/appkit-controllers'
+import type { CaipNetwork } from '@cotofe/appkit-common'
+import type { Connector, Provider } from '@cotofe/appkit-controllers'
 
 interface ChainAdapterConnector extends Connector {
   chains: CaipNetwork[]

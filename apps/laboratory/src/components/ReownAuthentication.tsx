@@ -12,9 +12,9 @@ import {
   Textarea
 } from '@chakra-ui/react'
 
-import type { SIWXSession } from '@reown/appkit'
-import type { ReownAuthentication } from '@reown/appkit-siwx'
-import { useAppKitSIWX } from '@reown/appkit-siwx/react'
+import type { SIWXSession } from '@cotofe/appkit'
+import type { ReownAuthentication } from '@cotofe/appkit-siwx'
+import { useAppKitSIWX } from '@cotofe/appkit-siwx/react'
 
 import { useChakraToast } from '@/src/components/Toast'
 

@@ -2,8 +2,8 @@ import { mount } from '@vue/test-utils'
 import { beforeAll, beforeEach, describe, expect, it, vi } from 'vitest'
 import { defineComponent, h } from 'vue'
 
-import type { ChainNamespace } from '@reown/appkit-common'
-import { ProviderUtil } from '@reown/appkit-utils'
+import type { ChainNamespace } from '@cotofe/appkit-common'
+import { ProviderUtil } from '@cotofe/appkit-utils'
 
 import { type ConnectorType, createAppKit, useAppKitProvider } from '../../exports/vue-core.js'
 import { mainnet } from '../mocks/Networks.js'

@@ -10,8 +10,8 @@ import {
 } from '@solana/web3.js'
 import bs58 from 'bs58'
 
-import { type Provider, useAppKitConnection } from '@reown/appkit-adapter-solana/react'
-import { useAppKitProvider } from '@reown/appkit/react'
+import { type Provider, useAppKitConnection } from '@cotofe/appkit-adapter-solana/react'
+import { useAppKitProvider } from '@cotofe/appkit/react'
 
 import { useChakraToast } from '@/src/components/Toast'
 

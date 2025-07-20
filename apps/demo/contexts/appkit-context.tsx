@@ -4,8 +4,8 @@ import { createContext } from 'react'
 
 import { type UniqueIdentifier } from '@dnd-kit/core'
 
-import type { AppKitNetwork, ChainNamespace } from '@reown/appkit-common'
-import type { Features, RemoteFeatures, SocialProvider, ThemeMode } from '@reown/appkit-controllers'
+import type { AppKitNetwork, ChainNamespace } from '@cotofe/appkit-common'
+import type { Features, RemoteFeatures, SocialProvider, ThemeMode } from '@cotofe/appkit-controllers'
 
 import { type NetworkOption } from '@/lib/networks'
 import { type URLState } from '@/lib/url-state'

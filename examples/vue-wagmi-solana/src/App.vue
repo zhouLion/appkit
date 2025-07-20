@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import { useAppKitTheme } from '@reown/appkit/vue'
+import { useAppKitTheme } from '@cotofe/appkit/vue'
 
 import ActionButtonList from './components/ActionButton.vue'
 import Footer from './components/Footer.vue'

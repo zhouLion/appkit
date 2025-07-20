@@ -3,8 +3,8 @@ import type { Meta } from '@storybook/web-components'
 
 import { html } from 'lit'
 
-import '@reown/appkit-ui/wui-wallet-switch'
-import type { WuiWalletSwitch } from '@reown/appkit-ui/wui-wallet-switch'
+import '@cotofe/appkit-ui/wui-wallet-switch'
+import type { WuiWalletSwitch } from '@cotofe/appkit-ui/wui-wallet-switch'
 
 import '../../components/gallery-container'
 import { address, iconOptions, walletImagesOptions } from '../../utils/PresetUtils'

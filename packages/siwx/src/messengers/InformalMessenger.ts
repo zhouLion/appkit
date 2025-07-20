@@ -1,5 +1,5 @@
-import { type CaipNetworkId, NetworkUtil } from '@reown/appkit-common'
-import { ChainController, type SIWXMessage } from '@reown/appkit-controllers'
+import { type CaipNetworkId, NetworkUtil } from '@cotofe/appkit-common'
+import { ChainController, type SIWXMessage } from '@cotofe/appkit-controllers'
 
 import { SIWXMessenger } from '../core/SIWXMessenger.js'
 

@@ -3,8 +3,8 @@ import type {
   CaipNetworkId,
   ChainNamespace,
   EmbeddedWalletTimeoutReason
-} from '@reown/appkit-common'
-import { W3mFrameProvider } from '@reown/appkit-wallet'
+} from '@cotofe/appkit-common'
+import { W3mFrameProvider } from '@cotofe/appkit-wallet'
 
 interface W3mFrameProviderConfig {
   projectId: string

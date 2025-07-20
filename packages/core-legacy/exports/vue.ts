@@ -1,1 +1,1 @@
-export * from '@reown/appkit-controllers/vue'
+export * from '@cotofe/appkit-controllers/vue'

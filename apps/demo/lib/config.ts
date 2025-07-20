@@ -1,9 +1,9 @@
-import { BitcoinAdapter } from '@reown/appkit-adapter-bitcoin'
-import { EthersAdapter } from '@reown/appkit-adapter-ethers'
-import { SolanaAdapter } from '@reown/appkit-adapter-solana'
-import { ConstantsUtil as CommonConstantsUtil } from '@reown/appkit-common'
-import { type ChainNamespace } from '@reown/appkit-common'
-import { type ChainAdapter, ConstantsUtil } from '@reown/appkit-controllers'
+import { BitcoinAdapter } from '@cotofe/appkit-adapter-bitcoin'
+import { EthersAdapter } from '@cotofe/appkit-adapter-ethers'
+import { SolanaAdapter } from '@cotofe/appkit-adapter-solana'
+import { ConstantsUtil as CommonConstantsUtil } from '@cotofe/appkit-common'
+import { type ChainNamespace } from '@cotofe/appkit-common'
+import { type ChainAdapter, ConstantsUtil } from '@cotofe/appkit-controllers'
 import {
   type AppKitNetwork,
   arbitrum,
@@ -18,8 +18,8 @@ import {
   solana,
   solanaDevnet,
   zksync
-} from '@reown/appkit/networks'
-import { type CreateAppKit } from '@reown/appkit/react'
+} from '@cotofe/appkit/networks'
+import { type CreateAppKit } from '@cotofe/appkit/react'
 
 import { urlStateUtils } from '@/lib/url-state'
 

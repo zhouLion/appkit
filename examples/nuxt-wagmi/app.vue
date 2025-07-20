@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { createAppKit, useAppKitTheme } from '@reown/appkit/vue'
+import { createAppKit, useAppKitTheme } from '@cotofe/appkit/vue'
 
 import { networks, projectId, wagmiAdapter } from './config/wagmi'
 

@@ -1,12 +1,12 @@
 import { afterEach, beforeAll, beforeEach, describe, expect, it, vi } from 'vitest'
 
-import { type CaipNetwork, NetworkUtil } from '@reown/appkit-common'
+import { type CaipNetwork, NetworkUtil } from '@cotofe/appkit-common'
 import {
   AccountController,
   BlockchainApiController,
   ChainController
-} from '@reown/appkit-controllers'
-import { ConstantsUtil } from '@reown/appkit-utils'
+} from '@cotofe/appkit-controllers'
+import { ConstantsUtil } from '@cotofe/appkit-utils'
 
 import { CloudAuthSIWX, ReownAuthentication } from '../../src/configs/ReownAuthenticationSIWX'
 import { mockSession } from '../mocks/mockSession'

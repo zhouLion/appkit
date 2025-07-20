@@ -18,7 +18,7 @@ import { mainnet } from '@wagmi/core/chains'
 import type UniversalProvider from '@walletconnect/universal-provider'
 import { afterEach, beforeAll, beforeEach, describe, expect, it, vi } from 'vitest'
 
-import { type AppKitNetwork, type CaipAddress, ConstantsUtil } from '@reown/appkit-common'
+import { type AppKitNetwork, type CaipAddress, ConstantsUtil } from '@cotofe/appkit-common'
 import {
   AccountController,
   ChainController,
@@ -26,9 +26,9 @@ import {
   CoreHelperUtil,
   type NetworkControllerClient,
   type SocialProvider
-} from '@reown/appkit-controllers'
-import { CaipNetworksUtil } from '@reown/appkit-utils'
-import type { W3mFrameProvider } from '@reown/appkit-wallet'
+} from '@cotofe/appkit-controllers'
+import { CaipNetworksUtil } from '@cotofe/appkit-utils'
+import type { W3mFrameProvider } from '@cotofe/appkit-wallet'
 
 import { WagmiAdapter } from '../client'
 import * as auth from '../connectors/AuthConnector'

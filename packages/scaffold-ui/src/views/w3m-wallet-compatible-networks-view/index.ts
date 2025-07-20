@@ -6,12 +6,12 @@ import {
   ChainController,
   CoreHelperUtil,
   getPreferredAccountType
-} from '@reown/appkit-controllers'
-import { customElement } from '@reown/appkit-ui'
-import '@reown/appkit-ui/wui-banner'
-import '@reown/appkit-ui/wui-flex'
-import '@reown/appkit-ui/wui-list-network'
-import { W3mFrameRpcConstants } from '@reown/appkit-wallet/utils'
+} from '@cotofe/appkit-controllers'
+import { customElement } from '@cotofe/appkit-ui'
+import '@cotofe/appkit-ui/wui-banner'
+import '@cotofe/appkit-ui/wui-flex'
+import '@cotofe/appkit-ui/wui-list-network'
+import { W3mFrameRpcConstants } from '@cotofe/appkit-wallet/utils'
 
 import styles from './styles.js'
 

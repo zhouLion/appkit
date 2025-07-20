@@ -9,9 +9,9 @@ import {
   EventsController,
   ModalController,
   OptionsController
-} from '@reown/appkit-controllers'
-import { customElement } from '@reown/appkit-ui'
-import '@reown/appkit-ui/wui-network-button'
+} from '@cotofe/appkit-controllers'
+import { customElement } from '@cotofe/appkit-ui'
+import '@cotofe/appkit-ui/wui-network-button'
 
 import styles from './styles.js'
 

@@ -1,7 +1,7 @@
 'use client'
 
-import { SolanaAdapter } from '@reown/appkit-adapter-solana/react'
-import { solana } from '@reown/appkit/networks'
+import { SolanaAdapter } from '@cotofe/appkit-adapter-solana/react'
+import { solana } from '@cotofe/appkit/networks'
 
 import { AppKitButtons } from '@/src/components/AppKitButtons'
 import { AppKitInfo } from '@/src/components/AppKitInfo'

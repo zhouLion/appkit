@@ -3,7 +3,7 @@ import { useEffect, useState, useSyncExternalStore } from 'react'
 
 import { useSnapshot } from 'valtio'
 
-import type { ChainNamespace } from '@reown/appkit-common'
+import type { ChainNamespace } from '@cotofe/appkit-common'
 import type {
   AppKitAccountButton,
   AppKitButton,
@@ -13,8 +13,8 @@ import type {
   W3mButton,
   W3mConnectButton,
   W3mNetworkButton
-} from '@reown/appkit-scaffold-ui'
-import { ProviderUtil } from '@reown/appkit-utils'
+} from '@cotofe/appkit-scaffold-ui'
+import { ProviderUtil } from '@cotofe/appkit-utils'
 
 import type {
   AppKitBaseClient as AppKit,
@@ -74,7 +74,7 @@ export function getAppKit(appKit: AppKit) {
 }
 
 // -- Core Hooks ---------------------------------------------------------------
-export * from '@reown/appkit-controllers/react'
+export * from '@cotofe/appkit-controllers/react'
 
 export function useAppKitProvider<T>(chainNamespace: ChainNamespace) {
   const { providers, providerIds } = useSnapshot(ProviderUtil.state)

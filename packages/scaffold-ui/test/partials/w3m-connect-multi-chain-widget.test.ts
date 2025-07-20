@@ -3,9 +3,9 @@ import { afterEach, describe, expect, it, vi } from 'vitest'
 
 import { html } from 'lit'
 
-import { ConstantsUtil as CommonConstantsUtil } from '@reown/appkit-common'
-import type { Connector } from '@reown/appkit-controllers'
-import { ConnectorController, RouterController } from '@reown/appkit-controllers'
+import { ConstantsUtil as CommonConstantsUtil } from '@cotofe/appkit-common'
+import type { Connector } from '@cotofe/appkit-controllers'
+import { ConnectorController, RouterController } from '@cotofe/appkit-controllers'
 
 import { W3mConnectMultiChainWidget } from '../../src/partials/w3m-connect-multi-chain-widget'
 import { HelpersUtil } from '../utils/HelpersUtil'

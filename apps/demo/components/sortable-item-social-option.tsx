@@ -4,7 +4,7 @@ import React from 'react'
 import { type UniqueIdentifier } from '@dnd-kit/core'
 import { type AnimateLayoutChanges, type NewIndexGetter, useSortable } from '@dnd-kit/sortable'
 
-import { type SocialProvider } from '@reown/appkit-controllers'
+import { type SocialProvider } from '@cotofe/appkit-controllers'
 
 import { SocialOptionItem } from './social-option-item'
 

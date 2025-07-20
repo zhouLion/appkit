@@ -1,9 +1,9 @@
 'use client'
 
-import { BitcoinAdapter } from '@reown/appkit-adapter-bitcoin'
-import { Ethers5Adapter } from '@reown/appkit-adapter-ethers5'
-import { SolanaAdapter } from '@reown/appkit-adapter-solana/react'
-import { mainnet } from '@reown/appkit/networks'
+import { BitcoinAdapter } from '@cotofe/appkit-adapter-bitcoin'
+import { Ethers5Adapter } from '@cotofe/appkit-adapter-ethers5'
+import { SolanaAdapter } from '@cotofe/appkit-adapter-solana/react'
+import { mainnet } from '@cotofe/appkit/networks'
 
 import { AppKitButtons } from '@/src/components/AppKitButtons'
 import { AppKitConnections } from '@/src/components/AppKitConnections'

@@ -1,7 +1,7 @@
 import { proxy, ref } from 'valtio/vanilla'
 
-import type { CaipAddress, ChainNamespace } from '@reown/appkit-common'
-import type { Balance } from '@reown/appkit-common'
+import type { CaipAddress, ChainNamespace } from '@cotofe/appkit-common'
+import type { Balance } from '@cotofe/appkit-common'
 
 import { BalanceUtil } from '../utils/BalanceUtil.js'
 import { ConstantsUtil } from '../utils/ConstantsUtil.js'

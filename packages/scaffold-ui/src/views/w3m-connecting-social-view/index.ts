@@ -15,14 +15,14 @@ import {
   SnackController,
   StorageUtil,
   ThemeController
-} from '@reown/appkit-controllers'
-import { customElement } from '@reown/appkit-ui'
-import '@reown/appkit-ui/wui-flex'
-import '@reown/appkit-ui/wui-icon-box'
-import '@reown/appkit-ui/wui-loading-thumbnail'
-import '@reown/appkit-ui/wui-logo'
-import '@reown/appkit-ui/wui-text'
-import { ErrorUtil } from '@reown/appkit-utils'
+} from '@cotofe/appkit-controllers'
+import { customElement } from '@cotofe/appkit-ui'
+import '@cotofe/appkit-ui/wui-flex'
+import '@cotofe/appkit-ui/wui-icon-box'
+import '@cotofe/appkit-ui/wui-loading-thumbnail'
+import '@cotofe/appkit-ui/wui-logo'
+import '@cotofe/appkit-ui/wui-text'
+import { ErrorUtil } from '@cotofe/appkit-utils'
 
 import { ConstantsUtil } from '../../utils/ConstantsUtil.js'
 import styles from './styles.js'

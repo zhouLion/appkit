@@ -1,6 +1,6 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 
-import { type Address, ConstantsUtil, type Hex } from '@reown/appkit-common'
+import { type Address, ConstantsUtil, type Hex } from '@cotofe/appkit-common'
 
 import { ConnectorController } from '../../exports'
 import { AccountController } from '../../src/controllers/AccountController'

@@ -1,8 +1,8 @@
 'use client'
 
-import { EthersAdapter } from '@reown/appkit-adapter-ethers'
-import { SolanaAdapter } from '@reown/appkit-adapter-solana'
-import { type AppKitNetwork, mainnet } from '@reown/appkit/networks'
+import { EthersAdapter } from '@cotofe/appkit-adapter-ethers'
+import { SolanaAdapter } from '@cotofe/appkit-adapter-solana'
+import { type AppKitNetwork, mainnet } from '@cotofe/appkit/networks'
 
 import { AppKitButtons } from '@/src/components/AppKitButtons'
 import { AppKitConnections } from '@/src/components/AppKitConnections'

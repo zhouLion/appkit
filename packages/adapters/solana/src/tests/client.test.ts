@@ -1,15 +1,15 @@
 import { type Mock, beforeEach, describe, expect, it, vi } from 'vitest'
 
-import { WcHelpersUtil } from '@reown/appkit'
-import { ConstantsUtil } from '@reown/appkit-common'
+import { WcHelpersUtil } from '@cotofe/appkit'
+import { ConstantsUtil } from '@cotofe/appkit-common'
 import {
   ChainController,
   type ConnectionControllerClient,
   type Provider as CoreProvider,
   type NetworkControllerClient
-} from '@reown/appkit-controllers'
-import { CaipNetworksUtil, PresetsUtil } from '@reown/appkit-utils'
-import { solana } from '@reown/appkit/networks'
+} from '@cotofe/appkit-controllers'
+import { CaipNetworksUtil, PresetsUtil } from '@cotofe/appkit-utils'
+import { solana } from '@cotofe/appkit/networks'
 
 import { SolanaAdapter } from '../client'
 import { AuthProvider } from '../providers/AuthProvider'

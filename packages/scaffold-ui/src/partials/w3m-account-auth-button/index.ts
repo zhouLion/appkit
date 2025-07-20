@@ -1,17 +1,17 @@
 import { LitElement, html } from 'lit'
 import { state } from 'lit/decorators.js'
 
-import { ConstantsUtil as CommonConstantsUtil } from '@reown/appkit-common'
+import { ConstantsUtil as CommonConstantsUtil } from '@cotofe/appkit-common'
 import {
   ChainController,
   ConnectorController,
   RouterController,
   type SocialProvider,
   StorageUtil
-} from '@reown/appkit-controllers'
-import { customElement } from '@reown/appkit-ui'
-import '@reown/appkit-ui/wui-list-item'
-import '@reown/appkit-ui/wui-text'
+} from '@cotofe/appkit-controllers'
+import { customElement } from '@cotofe/appkit-ui'
+import '@cotofe/appkit-ui/wui-list-item'
+import '@cotofe/appkit-ui/wui-text'
 
 @customElement('w3m-account-auth-button')
 export class W3mAccountAuthButton extends LitElement {

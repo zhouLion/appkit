@@ -6,7 +6,7 @@ First off, **thank you for taking the time to contribute!** These guidelines are
 
 ## Before You Start
 
-- **Large changes? Talk to us first.** If you are planning a significant feature or refactor, please [open an Issue](https://github.com/reown-com/appkit/issues) describing the proposal **before** you begin writing code. This helps everyone avoid duplicated effort and prevents disappointment if a large contribution is not aligned with the project roadmap.
+- **Large changes? Talk to us first.** If you are planning a significant feature or refactor, please [open an Issue](https://github.com/zhouLion/appkit/issues) describing the proposal **before** you begin writing code. This helps everyone avoid duplicated effort and prevents disappointment if a large contribution is not aligned with the project roadmap.
 - **Small bug fixes & improvements** can usually be submitted right away as pull requests.
 
 ## Types of Contributions

@@ -1,1 +1,1 @@
-export * from '@reown/appkit-controllers/react'
+export * from '@cotofe/appkit-controllers/react'

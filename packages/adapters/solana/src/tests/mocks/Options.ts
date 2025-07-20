@@ -1,6 +1,6 @@
-import type { AppKitOptions, ChainAdapter } from '@reown/appkit'
-import { ConstantsUtil } from '@reown/appkit-common'
-import { solana } from '@reown/appkit/networks'
+import type { AppKitOptions, ChainAdapter } from '@cotofe/appkit'
+import { ConstantsUtil } from '@cotofe/appkit-common'
+import { solana } from '@cotofe/appkit/networks'
 
 export const mockSolanaChainImage =
   'https://assets.coingecko.com/coins/images/4128/large/solana.png'

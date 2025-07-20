@@ -1,9 +1,9 @@
 import type { SessionTypes } from '@walletconnect/types'
 import UniversalProvider from '@walletconnect/universal-provider'
 
-import { type CaipNetwork, type ChainNamespace, ConstantsUtil } from '@reown/appkit-common'
-import { ChainController, OptionsController, SIWXUtil } from '@reown/appkit-controllers'
-import { PresetsUtil } from '@reown/appkit-utils'
+import { type CaipNetwork, type ChainNamespace, ConstantsUtil } from '@cotofe/appkit-common'
+import { ChainController, OptionsController, SIWXUtil } from '@cotofe/appkit-controllers'
+import { PresetsUtil } from '@cotofe/appkit-utils'
 
 import type { ChainAdapterConnector } from '../adapters/ChainAdapterConnector.js'
 import { WcHelpersUtil } from '../utils/index.js'

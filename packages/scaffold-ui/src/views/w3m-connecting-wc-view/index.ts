@@ -1,7 +1,7 @@
 import { LitElement, html } from 'lit'
 import { state } from 'lit/decorators.js'
 
-import type { BaseError, Platform } from '@reown/appkit-controllers'
+import type { BaseError, Platform } from '@cotofe/appkit-controllers'
 import {
   ChainController,
   ConnectionController,
@@ -11,9 +11,9 @@ import {
   OptionsController,
   RouterController,
   SnackController
-} from '@reown/appkit-controllers'
-import { customElement } from '@reown/appkit-ui'
-import { CaipNetworksUtil } from '@reown/appkit-utils'
+} from '@cotofe/appkit-controllers'
+import { customElement } from '@cotofe/appkit-ui'
+import { CaipNetworksUtil } from '@cotofe/appkit-utils'
 
 import '../../partials/w3m-connecting-header/index.js'
 import '../../partials/w3m-connecting-wc-browser/index.js'

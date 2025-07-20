@@ -1,5 +1,5 @@
-import { WagmiAdapter } from '@reown/appkit-adapter-wagmi'
-import { base, mainnet, polygon } from '@reown/appkit/networks'
+import { WagmiAdapter } from '@cotofe/appkit-adapter-wagmi'
+import { base, mainnet, polygon } from '@cotofe/appkit/networks'
 
 export const networks = [mainnet, polygon, base]
 

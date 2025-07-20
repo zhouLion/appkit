@@ -16,9 +16,9 @@ import { UniversalProvider } from '@walletconnect/universal-provider'
 import { BrowserProvider, type Eip1193Provider } from 'ethers'
 import { parseGwei } from 'viem'
 
-import type { Address, Hex } from '@reown/appkit-common'
-import { W3mFrameProvider } from '@reown/appkit-wallet'
-import { useAppKitAccount, useAppKitNetwork, useAppKitProvider } from '@reown/appkit/react'
+import type { Address, Hex } from '@cotofe/appkit-common'
+import { W3mFrameProvider } from '@cotofe/appkit-wallet'
+import { useAppKitAccount, useAppKitNetwork, useAppKitProvider } from '@cotofe/appkit/react'
 
 import { AddTransactionModal } from '@/src/components/AddTransactionModal'
 import { useChakraToast } from '@/src/components/Toast'

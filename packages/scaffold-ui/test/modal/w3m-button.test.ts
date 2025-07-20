@@ -1,14 +1,14 @@
 import { elementUpdated, fixture, html } from '@open-wc/testing'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 
-import { ConstantsUtil } from '@reown/appkit-common'
+import { ConstantsUtil } from '@cotofe/appkit-common'
 import {
   AccountController,
   ChainController,
   type ChainControllerState,
   ModalController,
   type ModalControllerState
-} from '@reown/appkit-controllers'
+} from '@cotofe/appkit-controllers'
 
 import type { W3mAccountButton } from '../../exports'
 import { W3mButton } from '../../src/modal/w3m-button'

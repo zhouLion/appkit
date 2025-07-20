@@ -1,13 +1,13 @@
 import { expect, fixture, html } from '@open-wc/testing'
 import { afterEach, beforeEach, describe, it, vi, expect as viExpect } from 'vitest'
 
-import type { Balance } from '@reown/appkit-common'
+import type { Balance } from '@cotofe/appkit-common'
 import {
   ConnectionController,
   RouterController,
   SendController,
   SwapController
-} from '@reown/appkit-controllers'
+} from '@cotofe/appkit-controllers'
 
 import { W3mWalletSendView } from '../../src/views/w3m-wallet-send-view'
 

@@ -1,14 +1,14 @@
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 
-import type { ChainNamespace } from '@reown/appkit-common'
+import type { ChainNamespace } from '@cotofe/appkit-common'
 import {
   AlertController,
   ApiController,
   type ChainAdapter,
   ChainController,
   ConnectionController
-} from '@reown/appkit-controllers'
-import { ErrorUtil } from '@reown/appkit-utils'
+} from '@cotofe/appkit-controllers'
+import { ErrorUtil } from '@cotofe/appkit-utils'
 
 import { AppKitBaseClient } from '../../src/client/appkit-base-client'
 import { mainnet } from '../mocks/Networks'

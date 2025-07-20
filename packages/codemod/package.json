@@ -1,12 +1,12 @@
 {
-  "name": "@reown/appkit-codemod",
+  "name": "@cotofe/appkit-codemod",
   "version": "1.7.15",
   "sideEffects": false,
   "description": "Reown AppKit Codemod",
   "main": "index.js",
   "type": "module",
   "bin": {
-    "@reown/appkit-codemod": "./src/index.js"
+    "@cotofe/appkit-codemod": "./src/index.js"
   },
   "dependencies": {
     "chalk": "5.4.1",
@@ -14,13 +14,13 @@
   },
   "author": "Reown (https://discord.gg/reown)",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/reown-com/appkit",
+  "homepage": "https://github.com/zhouLion/appkit",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reown-com/appkit.git"
+    "url": "git+https://github.com/zhouLion/appkit.git"
   },
   "bugs": {
-    "url": "https://github.com/reown-com/appkit/issues"
+    "url": "https://github.com/zhouLion/appkit/issues"
   },
   "keywords": [
     "appkit",

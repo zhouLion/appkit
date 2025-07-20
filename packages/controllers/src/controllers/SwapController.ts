@@ -1,9 +1,9 @@
 import { proxy, subscribe as sub } from 'valtio/vanilla'
 import { subscribeKey as subKey } from 'valtio/vanilla/utils'
 
-import { type Address, type Hex, NumberUtil } from '@reown/appkit-common'
-import { ConstantsUtil as CommonConstantsUtil } from '@reown/appkit-common'
-import { W3mFrameRpcConstants } from '@reown/appkit-wallet/utils'
+import { type Address, type Hex, NumberUtil } from '@cotofe/appkit-common'
+import { ConstantsUtil as CommonConstantsUtil } from '@cotofe/appkit-common'
+import { W3mFrameRpcConstants } from '@cotofe/appkit-wallet/utils'
 
 import { BalanceUtil } from '../utils/BalanceUtil.js'
 import {

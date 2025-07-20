@@ -7,8 +7,8 @@
     "build": "vite build"
   },
   "dependencies": {
-    "@reown/appkit": "workspace:*",
-    "@reown/appkit-adapter-wagmi": "workspace:*",
+    "@cotofe/appkit": "workspace:*",
+    "@cotofe/appkit-adapter-wagmi": "workspace:*",
     "@tanstack/react-query": "5.75.5",
     "react": "19.1.0",
     "react-dom": "19.1.0",

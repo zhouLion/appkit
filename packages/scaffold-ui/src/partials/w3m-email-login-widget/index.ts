@@ -4,20 +4,20 @@ import { ifDefined } from 'lit/directives/if-defined.js'
 import { createRef, ref } from 'lit/directives/ref.js'
 import type { Ref } from 'lit/directives/ref.js'
 
-import { ConstantsUtil } from '@reown/appkit-common'
+import { ConstantsUtil } from '@cotofe/appkit-common'
 import {
   ChainController,
   ConnectionController,
   ConnectorController,
   CoreHelperUtil,
   OptionsController
-} from '@reown/appkit-controllers'
-import { EventsController, RouterController, SnackController } from '@reown/appkit-controllers'
-import { customElement } from '@reown/appkit-ui'
-import '@reown/appkit-ui/wui-email-input'
-import '@reown/appkit-ui/wui-icon-link'
-import '@reown/appkit-ui/wui-loading-spinner'
-import '@reown/appkit-ui/wui-text'
+} from '@cotofe/appkit-controllers'
+import { EventsController, RouterController, SnackController } from '@cotofe/appkit-controllers'
+import { customElement } from '@cotofe/appkit-ui'
+import '@cotofe/appkit-ui/wui-email-input'
+import '@cotofe/appkit-ui/wui-icon-link'
+import '@cotofe/appkit-ui/wui-loading-spinner'
+import '@cotofe/appkit-ui/wui-text'
 
 import styles from './styles.js'
 

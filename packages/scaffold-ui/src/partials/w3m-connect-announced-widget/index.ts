@@ -2,18 +2,18 @@ import { LitElement, html } from 'lit'
 import { property, state } from 'lit/decorators.js'
 import { ifDefined } from 'lit/directives/if-defined.js'
 
-import type { Connector } from '@reown/appkit-controllers'
+import type { Connector } from '@cotofe/appkit-controllers'
 import {
   AssetUtil,
   ConnectionController,
   ConnectorController,
   CoreHelperUtil,
   RouterController
-} from '@reown/appkit-controllers'
-import { customElement } from '@reown/appkit-ui'
-import '@reown/appkit-ui/wui-flex'
-import '@reown/appkit-ui/wui-list-wallet'
-import { HelpersUtil } from '@reown/appkit-utils'
+} from '@cotofe/appkit-controllers'
+import { customElement } from '@cotofe/appkit-ui'
+import '@cotofe/appkit-ui/wui-flex'
+import '@cotofe/appkit-ui/wui-list-wallet'
+import { HelpersUtil } from '@cotofe/appkit-utils'
 
 import { ConnectorUtil } from '../../utils/ConnectorUtil.js'
 

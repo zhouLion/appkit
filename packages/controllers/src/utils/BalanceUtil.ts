@@ -1,4 +1,4 @@
-import { type Address, type CaipNetwork, ConstantsUtil } from '@reown/appkit-common'
+import { type Address, type CaipNetwork, ConstantsUtil } from '@cotofe/appkit-common'
 
 import { AccountController } from '../controllers/AccountController.js'
 import { BlockchainApiController } from '../controllers/BlockchainApiController.js'

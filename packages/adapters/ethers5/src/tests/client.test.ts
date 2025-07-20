@@ -2,12 +2,12 @@ import UniversalProvider from '@walletconnect/universal-provider'
 import { providers } from 'ethers'
 import { type Mock, beforeEach, describe, expect, it, vi } from 'vitest'
 
-import { WcHelpersUtil } from '@reown/appkit'
+import { WcHelpersUtil } from '@cotofe/appkit'
 import {
   type CaipAddress,
   ConstantsUtil as CommonConstantsUtil,
   Emitter
-} from '@reown/appkit-common'
+} from '@cotofe/appkit-common'
 import {
   AccountController,
   ChainController,
@@ -15,12 +15,12 @@ import {
   type NetworkControllerClient,
   type Provider,
   SIWXUtil
-} from '@reown/appkit-controllers'
-import { ConnectorUtil } from '@reown/appkit-scaffold-ui/utils'
-import { CaipNetworksUtil } from '@reown/appkit-utils'
-import { ProviderUtil } from '@reown/appkit-utils'
-import type { W3mFrameProvider } from '@reown/appkit-wallet'
-import { mainnet, polygon } from '@reown/appkit/networks'
+} from '@cotofe/appkit-controllers'
+import { ConnectorUtil } from '@cotofe/appkit-scaffold-ui/utils'
+import { CaipNetworksUtil } from '@cotofe/appkit-utils'
+import { ProviderUtil } from '@cotofe/appkit-utils'
+import type { W3mFrameProvider } from '@cotofe/appkit-wallet'
+import { mainnet, polygon } from '@cotofe/appkit/networks'
 
 import { Ethers5Adapter } from '../client'
 import { Ethers5Methods } from '../utils/Ethers5Methods'

@@ -10,15 +10,15 @@ import {
   vi
 } from 'vitest'
 
-import { WcHelpersUtil } from '@reown/appkit'
-import { ConstantsUtil } from '@reown/appkit-common'
+import { WcHelpersUtil } from '@cotofe/appkit'
+import { ConstantsUtil } from '@cotofe/appkit-common'
 import {
   ChainController,
   type ConnectionControllerClient,
   type NetworkControllerClient,
   StorageUtil
-} from '@reown/appkit-controllers'
-import { bitcoin, bitcoinTestnet, mainnet } from '@reown/appkit/networks'
+} from '@cotofe/appkit-controllers'
+import { bitcoin, bitcoinTestnet, mainnet } from '@cotofe/appkit/networks'
 
 import { BitcoinAdapter, type BitcoinConnector } from '../src'
 import { BitcoinWalletConnectConnector } from '../src/connectors/BitcoinWalletConnectConnector'

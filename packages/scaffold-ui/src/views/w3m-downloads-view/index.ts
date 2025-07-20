@@ -1,10 +1,10 @@
 import { LitElement, html } from 'lit'
 
-import { CoreHelperUtil, RouterController } from '@reown/appkit-controllers'
-import { customElement } from '@reown/appkit-ui'
-import '@reown/appkit-ui/wui-flex'
-import '@reown/appkit-ui/wui-list-item'
-import '@reown/appkit-ui/wui-text'
+import { CoreHelperUtil, RouterController } from '@cotofe/appkit-controllers'
+import { customElement } from '@cotofe/appkit-ui'
+import '@cotofe/appkit-ui/wui-flex'
+import '@cotofe/appkit-ui/wui-list-item'
+import '@cotofe/appkit-ui/wui-text'
 
 @customElement('w3m-downloads-view')
 export class W3mDownloadsView extends LitElement {

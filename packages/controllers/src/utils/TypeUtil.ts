@@ -15,8 +15,8 @@ import type {
   SdkFramework,
   SwapProvider,
   Transaction
-} from '@reown/appkit-common'
-import type { W3mFrameProvider, W3mFrameTypes } from '@reown/appkit-wallet'
+} from '@cotofe/appkit-common'
+import type { W3mFrameProvider, W3mFrameTypes } from '@cotofe/appkit-wallet'
 
 import type { AccountControllerState } from '../controllers/AccountController.js'
 import type { ConnectionControllerClient } from '../controllers/ConnectionController.js'

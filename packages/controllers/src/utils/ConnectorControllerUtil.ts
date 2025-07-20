@@ -1,8 +1,8 @@
 /* eslint-disable max-depth */
-import { type ChainNamespace, ParseUtil, type ParsedCaipAddress } from '@reown/appkit-common'
-import { ConstantsUtil as CommonConstantsUtil } from '@reown/appkit-common'
-import type { W3mFrameTypes } from '@reown/appkit-wallet'
-import { W3mFrameRpcConstants } from '@reown/appkit-wallet/utils'
+import { type ChainNamespace, ParseUtil, type ParsedCaipAddress } from '@cotofe/appkit-common'
+import { ConstantsUtil as CommonConstantsUtil } from '@cotofe/appkit-common'
+import type { W3mFrameTypes } from '@cotofe/appkit-wallet'
+import { W3mFrameRpcConstants } from '@cotofe/appkit-wallet/utils'
 
 import { AccountController } from '../controllers/AccountController.js'
 import { ChainController } from '../controllers/ChainController.js'

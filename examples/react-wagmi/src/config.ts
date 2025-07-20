@@ -1,5 +1,5 @@
-import { WagmiAdapter } from '@reown/appkit-adapter-wagmi'
-import { arbitrum, mainnet, optimism, polygon } from '@reown/appkit/networks'
+import { WagmiAdapter } from '@cotofe/appkit-adapter-wagmi'
+import { arbitrum, mainnet, optimism, polygon } from '@cotofe/appkit/networks'
 import {
   createAppKit,
   useAppKit,
@@ -10,7 +10,7 @@ import {
   useAppKitTheme,
   useDisconnect,
   useWalletInfo
-} from '@reown/appkit/react'
+} from '@cotofe/appkit/react'
 
 import ActionButtonList from './components/ActionButton'
 import Footer from './components/Footer'

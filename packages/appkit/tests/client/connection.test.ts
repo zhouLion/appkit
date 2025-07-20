@@ -1,7 +1,7 @@
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import type { MockInstance } from 'vitest'
 
-import type { CaipNetwork } from '@reown/appkit-common'
+import type { CaipNetwork } from '@cotofe/appkit-common'
 import {
   AccountController,
   type AccountType,
@@ -9,10 +9,10 @@ import {
   ConnectorController,
   type ConnectorType,
   StorageUtil
-} from '@reown/appkit-controllers'
-import { ConstantsUtil as UtilConstantsUtil } from '@reown/appkit-utils'
-import { ProviderUtil } from '@reown/appkit-utils'
-import type { W3mFrameProvider } from '@reown/appkit-wallet'
+} from '@cotofe/appkit-controllers'
+import { ConstantsUtil as UtilConstantsUtil } from '@cotofe/appkit-utils'
+import { ProviderUtil } from '@cotofe/appkit-utils'
+import type { W3mFrameProvider } from '@cotofe/appkit-wallet'
 
 import { AppKit } from '../../src/client/appkit.js'
 import { mockEvmAdapter, mockSolanaAdapter } from '../mocks/Adapter.js'

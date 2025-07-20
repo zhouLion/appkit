@@ -1,9 +1,9 @@
 /* eslint-disable @typescript-eslint/no-unused-vars, @typescript-eslint/require-await */
-import { type CaipNetwork, ConstantsUtil as CommonConstantsUtil } from '@reown/appkit-common'
-import { CoreHelperUtil, type RequestArguments } from '@reown/appkit-controllers'
-import { PresetsUtil } from '@reown/appkit-utils'
-import type { BitcoinConnector } from '@reown/appkit-utils/bitcoin'
-import { bitcoin } from '@reown/appkit/networks'
+import { type CaipNetwork, ConstantsUtil as CommonConstantsUtil } from '@cotofe/appkit-common'
+import { CoreHelperUtil, type RequestArguments } from '@cotofe/appkit-controllers'
+import { PresetsUtil } from '@cotofe/appkit-utils'
+import type { BitcoinConnector } from '@cotofe/appkit-utils/bitcoin'
+import { bitcoin } from '@cotofe/appkit/networks'
 
 import { MethodNotSupportedError } from '../errors/MethodNotSupportedError.js'
 import { AddressPurpose } from '../utils/BitcoinConnector.js'

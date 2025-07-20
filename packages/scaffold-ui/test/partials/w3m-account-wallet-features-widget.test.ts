@@ -3,7 +3,7 @@ import { afterEach, beforeAll, beforeEach, describe, expect, it, vi } from 'vite
 
 import { html } from 'lit'
 
-import { type ChainNamespace, ConstantsUtil as CommonConstantsUtil } from '@reown/appkit-common'
+import { type ChainNamespace, ConstantsUtil as CommonConstantsUtil } from '@cotofe/appkit-common'
 import {
   AccountController,
   ChainController,
@@ -11,7 +11,7 @@ import {
   CoreHelperUtil,
   OptionsController,
   RouterController
-} from '@reown/appkit-controllers'
+} from '@cotofe/appkit-controllers'
 
 import { W3mAccountWalletFeaturesWidget } from '../../src/partials/w3m-account-wallet-features-widget'
 import { HelpersUtil } from '../utils/HelpersUtil'

@@ -2,8 +2,8 @@ import type { Meta } from '@storybook/web-components'
 
 import { html } from 'lit'
 
-import '@reown/appkit-ui/wui-snackbar'
-import type { WuiSnackbar } from '@reown/appkit-ui/wui-snackbar'
+import '@cotofe/appkit-ui/wui-snackbar'
+import type { WuiSnackbar } from '@cotofe/appkit-ui/wui-snackbar'
 
 import { colorOptions, iconOptions } from '../../utils/PresetUtils'
 

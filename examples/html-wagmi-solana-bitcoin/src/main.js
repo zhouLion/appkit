@@ -1,7 +1,7 @@
-import { createAppKit } from '@reown/appkit'
-import { BitcoinAdapter } from '@reown/appkit-adapter-bitcoin'
-import { SolanaAdapter } from '@reown/appkit-adapter-solana'
-import { WagmiAdapter } from '@reown/appkit-adapter-wagmi'
+import { createAppKit } from '@cotofe/appkit'
+import { BitcoinAdapter } from '@cotofe/appkit-adapter-bitcoin'
+import { SolanaAdapter } from '@cotofe/appkit-adapter-solana'
+import { WagmiAdapter } from '@cotofe/appkit-adapter-wagmi'
 import {
   arbitrum,
   bitcoin,
@@ -12,7 +12,7 @@ import {
   solana,
   solanaDevnet,
   solanaTestnet
-} from '@reown/appkit/networks'
+} from '@cotofe/appkit/networks'
 
 // Get projectId
 export const projectId = import.meta.env.VITE_PROJECT_ID || 'b56e18d47c72ab683b10814fe9495694' // this is a public projectId only to use on localhost

@@ -2,21 +2,21 @@ import { isVersionedTransaction } from '@solana/wallet-adapter-base'
 import { PublicKey, type SendOptions, Transaction, VersionedTransaction } from '@solana/web3.js'
 import base58 from 'bs58'
 
-import type { CaipNetwork } from '@reown/appkit-common'
-import { ConstantsUtil } from '@reown/appkit-common'
+import type { CaipNetwork } from '@cotofe/appkit-common'
+import { ConstantsUtil } from '@cotofe/appkit-common'
 import {
   ChainController,
   type RequestArguments,
   SIWXUtil,
   getPreferredAccountType
-} from '@reown/appkit-controllers'
+} from '@cotofe/appkit-controllers'
 import type {
   AnyTransaction,
   Connection,
   GetActiveChain,
   Provider as SolanaProvider
-} from '@reown/appkit-utils/solana'
-import { W3mFrameProvider } from '@reown/appkit-wallet'
+} from '@cotofe/appkit-utils/solana'
+import { W3mFrameProvider } from '@cotofe/appkit-wallet'
 
 import { withSolanaNamespace } from '../utils/withSolanaNamespace.js'
 import { ProviderEventEmitter } from './shared/ProviderEventEmitter.js'

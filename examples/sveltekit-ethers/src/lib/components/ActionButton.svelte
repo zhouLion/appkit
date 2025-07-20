@@ -1,6 +1,6 @@
 <script lang="ts">
   import { modal } from '$lib/appkit';
-  import { mainnet } from '@reown/appkit/networks';
+  import { mainnet } from '@cotofe/appkit/networks';
   import { accountState, networkState, themeState } from '$lib/store';
   import { browser } from '$app/environment';
 

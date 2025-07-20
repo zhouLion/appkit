@@ -4,8 +4,8 @@ import {
   ChainController,
   CoreHelperUtil,
   type UseAppKitNetworkReturn
-} from '@reown/appkit-controllers'
-import type { AppKitNetwork } from '@reown/appkit/networks'
+} from '@cotofe/appkit-controllers'
+import type { AppKitNetwork } from '@cotofe/appkit/networks'
 
 import { AppKit } from '../src/client/appkit.js'
 import { getAppKit } from '../src/library/vue/index.js'
@@ -18,9 +18,9 @@ export * from '../src/library/vue/index.js'
 
 // -- Utils & Other -----------------------------------------------------
 export * from '../src/utils/index.js'
-export type * from '@reown/appkit-controllers'
-export type { CaipNetwork, CaipAddress, CaipNetworkId } from '@reown/appkit-common'
-export { CoreHelperUtil, AccountController } from '@reown/appkit-controllers'
+export type * from '@cotofe/appkit-controllers'
+export type { CaipNetwork, CaipAddress, CaipNetworkId } from '@cotofe/appkit-common'
+export { CoreHelperUtil, AccountController } from '@cotofe/appkit-controllers'
 
 let modal: AppKit | undefined = undefined
 

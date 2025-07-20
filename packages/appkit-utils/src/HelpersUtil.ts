@@ -1,5 +1,5 @@
-import { type CaipNetworkId, ConstantsUtil as CommonConstantsUtil } from '@reown/appkit-common'
-import { ChainController, ConnectorController, type Tokens } from '@reown/appkit-controllers'
+import { type CaipNetworkId, ConstantsUtil as CommonConstantsUtil } from '@cotofe/appkit-common'
+import { ChainController, ConnectorController, type Tokens } from '@cotofe/appkit-controllers'
 
 import { ConstantsUtil } from './ConstantsUtil.js'
 

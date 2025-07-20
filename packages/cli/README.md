@@ -16,7 +16,7 @@ To install this CLI tool globally for development, you can link it locally using
 First, clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/reown-com/appkit-cli
+git clone https://github.com/zhouLion/appkit-cli
 cd appkit-cli
 ```
 

@@ -1,7 +1,7 @@
-import { ConstantsUtil as CommonConstantsUtil } from '@reown/appkit-common'
-import type { Connection } from '@reown/appkit-common'
-import type { SocialProvider } from '@reown/appkit-controllers'
-import { ConnectorController, StorageUtil } from '@reown/appkit-controllers'
+import { ConstantsUtil as CommonConstantsUtil } from '@cotofe/appkit-common'
+import type { Connection } from '@cotofe/appkit-common'
+import type { SocialProvider } from '@cotofe/appkit-controllers'
+import { ConnectorController, StorageUtil } from '@cotofe/appkit-controllers'
 
 import { ConnectorUtil } from './ConnectorUtil.js'
 

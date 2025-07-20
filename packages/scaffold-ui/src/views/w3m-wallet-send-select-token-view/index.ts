@@ -1,22 +1,22 @@
 import { LitElement, html } from 'lit'
 import { state } from 'lit/decorators.js'
 
-import type { Balance } from '@reown/appkit-common'
+import type { Balance } from '@cotofe/appkit-common'
 import {
   ChainController,
   CoreHelperUtil,
   RouterController,
   SendController
-} from '@reown/appkit-controllers'
-import { customElement } from '@reown/appkit-ui'
-import '@reown/appkit-ui/wui-flex'
-import '@reown/appkit-ui/wui-icon'
-import '@reown/appkit-ui/wui-icon-box'
-import '@reown/appkit-ui/wui-input-text'
-import '@reown/appkit-ui/wui-link'
-import '@reown/appkit-ui/wui-list-token'
-import '@reown/appkit-ui/wui-separator'
-import '@reown/appkit-ui/wui-text'
+} from '@cotofe/appkit-controllers'
+import { customElement } from '@cotofe/appkit-ui'
+import '@cotofe/appkit-ui/wui-flex'
+import '@cotofe/appkit-ui/wui-icon'
+import '@cotofe/appkit-ui/wui-icon-box'
+import '@cotofe/appkit-ui/wui-input-text'
+import '@cotofe/appkit-ui/wui-link'
+import '@cotofe/appkit-ui/wui-list-token'
+import '@cotofe/appkit-ui/wui-separator'
+import '@cotofe/appkit-ui/wui-text'
 
 import styles from './styles.js'
 

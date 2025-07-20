@@ -7,7 +7,7 @@ import {
   ConstantsUtil,
   type EmbeddedWalletTimeoutReason,
   getW3mThemeVariables
-} from '@reown/appkit-common'
+} from '@cotofe/appkit-common'
 import {
   ApiController,
   ConnectionController,
@@ -21,7 +21,7 @@ import {
   type RemoteFeatures,
   SIWXUtil,
   getPreferredAccountType
-} from '@reown/appkit-controllers'
+} from '@cotofe/appkit-controllers'
 import {
   AccountController,
   AlertController,
@@ -30,16 +30,16 @@ import {
   OptionsController,
   StorageUtil,
   ThemeController
-} from '@reown/appkit-controllers'
+} from '@cotofe/appkit-controllers'
 import {
   ErrorUtil,
   HelpersUtil,
   ProviderUtil,
   ConstantsUtil as UtilConstantsUtil
-} from '@reown/appkit-utils'
-import { W3mFrameHelpers, W3mFrameProvider } from '@reown/appkit-wallet'
-import type { W3mFrameTypes } from '@reown/appkit-wallet'
-import { W3mFrameRpcConstants } from '@reown/appkit-wallet/utils'
+} from '@cotofe/appkit-utils'
+import { W3mFrameHelpers, W3mFrameProvider } from '@cotofe/appkit-wallet'
+import type { W3mFrameTypes } from '@cotofe/appkit-wallet'
+import { W3mFrameRpcConstants } from '@cotofe/appkit-wallet/utils'
 
 import type { AdapterBlueprint } from '../adapters/ChainAdapterBlueprint.js'
 import { W3mFrameProviderSingleton } from '../auth-provider/W3MFrameProviderSingleton.js'
@@ -622,44 +622,44 @@ export class AppKit extends AppKitBaseClient {
     const usingEmbeddedWallet =
       remoteFeatures.email || (remoteFeatures.socials && remoteFeatures.socials.length > 0)
     if (usingEmbeddedWallet) {
-      featureImportPromises.push(import('@reown/appkit-scaffold-ui/embedded-wallet'))
+      featureImportPromises.push(import('@cotofe/appkit-scaffold-ui/embedded-wallet'))
     }
 
     if (remoteFeatures.email) {
-      featureImportPromises.push(import('@reown/appkit-scaffold-ui/email'))
+      featureImportPromises.push(import('@cotofe/appkit-scaffold-ui/email'))
     }
     if (remoteFeatures.socials) {
-      featureImportPromises.push(import('@reown/appkit-scaffold-ui/socials'))
+      featureImportPromises.push(import('@cotofe/appkit-scaffold-ui/socials'))
     }
 
     if (remoteFeatures.swaps && remoteFeatures.swaps.length > 0) {
-      featureImportPromises.push(import('@reown/appkit-scaffold-ui/swaps'))
+      featureImportPromises.push(import('@cotofe/appkit-scaffold-ui/swaps'))
     }
 
     if (features.send) {
-      featureImportPromises.push(import('@reown/appkit-scaffold-ui/send'))
+      featureImportPromises.push(import('@cotofe/appkit-scaffold-ui/send'))
     }
 
     if (features.receive) {
-      featureImportPromises.push(import('@reown/appkit-scaffold-ui/receive'))
+      featureImportPromises.push(import('@cotofe/appkit-scaffold-ui/receive'))
     }
 
     if (remoteFeatures.onramp && remoteFeatures.onramp.length > 0) {
-      featureImportPromises.push(import('@reown/appkit-scaffold-ui/onramp'))
+      featureImportPromises.push(import('@cotofe/appkit-scaffold-ui/onramp'))
     }
 
     if (remoteFeatures.activity) {
-      featureImportPromises.push(import('@reown/appkit-scaffold-ui/transactions'))
+      featureImportPromises.push(import('@cotofe/appkit-scaffold-ui/transactions'))
     }
 
     if (features.pay) {
-      featureImportPromises.push(import('@reown/appkit-pay'))
+      featureImportPromises.push(import('@cotofe/appkit-pay'))
     }
 
     await Promise.all([
       ...featureImportPromises,
-      import('@reown/appkit-scaffold-ui'),
-      import('@reown/appkit-scaffold-ui/w3m-modal')
+      import('@cotofe/appkit-scaffold-ui'),
+      import('@cotofe/appkit-scaffold-ui/w3m-modal')
     ])
   }
 }

@@ -2,7 +2,7 @@ import { LitElement, html } from 'lit'
 import { state } from 'lit/decorators.js'
 import { ifDefined } from 'lit/directives/if-defined.js'
 
-import { ConstantsUtil } from '@reown/appkit-common'
+import { ConstantsUtil } from '@cotofe/appkit-common'
 import {
   AccountController,
   AssetUtil,
@@ -16,20 +16,20 @@ import {
   RouterController,
   SnackController,
   getPreferredAccountType
-} from '@reown/appkit-controllers'
-import { customElement } from '@reown/appkit-ui'
-import '@reown/appkit-ui/wui-avatar'
-import '@reown/appkit-ui/wui-button'
-import '@reown/appkit-ui/wui-flex'
-import '@reown/appkit-ui/wui-icon'
-import '@reown/appkit-ui/wui-icon-link'
-import '@reown/appkit-ui/wui-list-item'
-import '@reown/appkit-ui/wui-notice-card'
-import '@reown/appkit-ui/wui-tabs'
-import '@reown/appkit-ui/wui-tag'
-import '@reown/appkit-ui/wui-text'
-import '@reown/appkit-ui/wui-wallet-switch'
-import { W3mFrameRpcConstants } from '@reown/appkit-wallet/utils'
+} from '@cotofe/appkit-controllers'
+import { customElement } from '@cotofe/appkit-ui'
+import '@cotofe/appkit-ui/wui-avatar'
+import '@cotofe/appkit-ui/wui-button'
+import '@cotofe/appkit-ui/wui-flex'
+import '@cotofe/appkit-ui/wui-icon'
+import '@cotofe/appkit-ui/wui-icon-link'
+import '@cotofe/appkit-ui/wui-list-item'
+import '@cotofe/appkit-ui/wui-notice-card'
+import '@cotofe/appkit-ui/wui-tabs'
+import '@cotofe/appkit-ui/wui-tag'
+import '@cotofe/appkit-ui/wui-text'
+import '@cotofe/appkit-ui/wui-wallet-switch'
+import { W3mFrameRpcConstants } from '@cotofe/appkit-wallet/utils'
 
 import '../w3m-account-auth-button/index.js'
 import styles from './styles.js'

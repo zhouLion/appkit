@@ -9,8 +9,8 @@
   },
   "dependencies": {
     "@esbuild-plugins/node-globals-polyfill": "0.2.3",
-    "@reown/appkit": "workspace:*",
-    "@reown/appkit-siwx": "workspace:*",
+    "@cotofe/appkit": "workspace:*",
+    "@cotofe/appkit-siwx": "workspace:*",
     "vue": "3.4.3"
   },
   "devDependencies": {

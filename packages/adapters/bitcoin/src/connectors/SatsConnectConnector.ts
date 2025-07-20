@@ -14,11 +14,11 @@ import {
   getProviders
 } from 'sats-connect'
 
-import type { CaipNetwork } from '@reown/appkit-common'
-import { CoreHelperUtil } from '@reown/appkit-controllers'
-import type { RequestArguments } from '@reown/appkit-controllers'
-import { HelpersUtil, PresetsUtil } from '@reown/appkit-utils'
-import type { BitcoinConnector } from '@reown/appkit-utils/bitcoin'
+import type { CaipNetwork } from '@cotofe/appkit-common'
+import { CoreHelperUtil } from '@cotofe/appkit-controllers'
+import type { RequestArguments } from '@cotofe/appkit-controllers'
+import { HelpersUtil, PresetsUtil } from '@cotofe/appkit-utils'
+import type { BitcoinConnector } from '@cotofe/appkit-utils/bitcoin'
 
 import { mapSatsConnectAddressPurpose } from '../utils/BitcoinConnector.js'
 import { AddressPurpose } from '../utils/BitcoinConnector.js'

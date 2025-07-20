@@ -11,8 +11,8 @@
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
   },
   "dependencies": {
-    "@reown/appkit": "workspace:*",
-    "@reown/appkit-adapter-wagmi": "workspace:*",
+    "@cotofe/appkit": "workspace:*",
+    "@cotofe/appkit-adapter-wagmi": "workspace:*",
     "@walletconnect/logger": "2.1.2",
     "viem": "2.32.0",
     "wagmi": "2.15.7"

@@ -30,11 +30,11 @@ jobs:
                • Create a branch off `develop`.  
                • Edit `src/Reown.AppKit.Unity/Plugins/AppKit.jslib`, replacing the import line  
                  ```js
-                 import("https://cdn.jsdelivr.net/npm/@reown/appkit-cdn@OLD_VER/dist/appkit.js").then(async (AppKit) => {
+                 import("https://cdn.jsdelivr.net/npm/@cotofe/appkit-cdn@OLD_VER/dist/appkit.js").then(async (AppKit) => {
                  ```  
                  with  
                  ```js
-                 import("https://cdn.jsdelivr.net/npm/@reown/appkit-cdn@<NEW_VER>/dist/appkit.js").then(async (AppKit) => {
+                 import("https://cdn.jsdelivr.net/npm/@cotofe/appkit-cdn@<NEW_VER>/dist/appkit.js").then(async (AppKit) => {
                  ```
                • If the import line already uses the latest version, **do not create a PR** and instead respond **"No Unity AppKit update needed."**  
                • Otherwise, commit and open a PR.

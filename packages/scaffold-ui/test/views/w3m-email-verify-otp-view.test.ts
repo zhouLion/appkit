@@ -12,7 +12,7 @@ import {
   OptionsController,
   RouterController,
   SnackController
-} from '@reown/appkit-controllers'
+} from '@cotofe/appkit-controllers'
 
 import { W3mEmailVerifyOtpView } from '../../src/views/w3m-email-verify-otp-view/index'
 

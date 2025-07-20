@@ -2,9 +2,9 @@ import { LitElement, html } from 'lit'
 import { property, state } from 'lit/decorators.js'
 import { ifDefined } from 'lit/directives/if-defined.js'
 
-import { ApiController, ConnectorController } from '@reown/appkit-controllers'
-import { customElement } from '@reown/appkit-ui'
-import '@reown/appkit-ui/wui-flex'
+import { ApiController, ConnectorController } from '@cotofe/appkit-controllers'
+import { customElement } from '@cotofe/appkit-ui'
+import '@cotofe/appkit-ui/wui-flex'
 
 import '../../partials/w3m-connect-announced-widget/index.js'
 import '../../partials/w3m-connect-custom-widget/index.js'

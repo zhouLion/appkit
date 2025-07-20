@@ -1,11 +1,11 @@
 import { LitElement, html } from 'lit'
 import { ifDefined } from 'lit/directives/if-defined.js'
 
-import { AssetUtil, EventsController, RouterController } from '@reown/appkit-controllers'
-import { customElement } from '@reown/appkit-ui'
-import '@reown/appkit-ui/wui-flex'
-import '@reown/appkit-ui/wui-text'
-import '@reown/appkit-ui/wui-wallet-image'
+import { AssetUtil, EventsController, RouterController } from '@cotofe/appkit-controllers'
+import { customElement } from '@cotofe/appkit-ui'
+import '@cotofe/appkit-ui/wui-flex'
+import '@cotofe/appkit-ui/wui-text'
+import '@cotofe/appkit-ui/wui-wallet-image'
 
 import '../w3m-mobile-download-links/index.js'
 

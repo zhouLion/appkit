@@ -1,15 +1,15 @@
 import { LitElement, html } from 'lit'
 import { property } from 'lit/decorators.js'
 
-import { ConstantsUtil } from '@reown/appkit-common'
+import { ConstantsUtil } from '@cotofe/appkit-common'
 import {
   AccountController,
   BlockchainApiController,
   ChainController,
   ConnectorController,
   StorageUtil
-} from '@reown/appkit-controllers'
-import { W3mFrameRpcConstants } from '@reown/appkit-wallet/utils'
+} from '@cotofe/appkit-controllers'
+import { W3mFrameRpcConstants } from '@cotofe/appkit-wallet/utils'
 
 import '../../components/wui-image/index.js'
 import '../../components/wui-loading-spinner/index.js'

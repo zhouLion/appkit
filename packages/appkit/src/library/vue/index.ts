@@ -1,7 +1,7 @@
 import { onUnmounted, reactive, ref } from 'vue'
 
-import type { ChainNamespace } from '@reown/appkit-common'
-import { type ConnectorType, type Event } from '@reown/appkit-controllers'
+import type { ChainNamespace } from '@cotofe/appkit-common'
+import { type ConnectorType, type Event } from '@cotofe/appkit-controllers'
 import type {
   AppKitAccountButton,
   AppKitButton,
@@ -11,8 +11,8 @@ import type {
   W3mButton,
   W3mConnectButton,
   W3mNetworkButton
-} from '@reown/appkit-scaffold-ui'
-import { ProviderUtil } from '@reown/appkit-utils'
+} from '@cotofe/appkit-scaffold-ui'
+import { ProviderUtil } from '@cotofe/appkit-utils'
 
 import type {
   AppKitBaseClient as AppKit,
@@ -60,7 +60,7 @@ export function getAppKit(appKit: AppKit) {
 }
 
 // -- Core Hooks ---------------------------------------------------------------
-export * from '@reown/appkit-controllers/vue'
+export * from '@cotofe/appkit-controllers/vue'
 
 export function useAppKitProvider<T>(chainNamespace: ChainNamespace): UseAppKitReturnType<T> {
   const walletProvider = ref(ProviderUtil.state.providers[chainNamespace] as T | undefined)

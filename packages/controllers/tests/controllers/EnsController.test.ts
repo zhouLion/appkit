@@ -1,8 +1,8 @@
 import { polygon } from 'viem/chains'
 import { beforeAll, describe, expect, it, vi } from 'vitest'
 
-import { ConstantsUtil } from '@reown/appkit-common'
-import { W3mFrameProvider } from '@reown/appkit-wallet'
+import { ConstantsUtil } from '@cotofe/appkit-common'
+import { W3mFrameProvider } from '@cotofe/appkit-wallet'
 
 import {
   AccountController,

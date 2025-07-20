@@ -8,7 +8,7 @@ import {
   AssetUtil,
   ConnectorController,
   type ConnectorWithProviders
-} from '@reown/appkit-controllers'
+} from '@cotofe/appkit-controllers'
 
 import { W3mConnectExternalWidget } from '../../src/partials/w3m-connect-external-widget'
 

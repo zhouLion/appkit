@@ -2,9 +2,9 @@ import { LitElement, html } from 'lit'
 import { property, state } from 'lit/decorators.js'
 import { ifDefined } from 'lit/directives/if-defined.js'
 
-import { ConstantsUtil as CommonConstantsUtil } from '@reown/appkit-common'
-import type { ChainNamespace } from '@reown/appkit-common'
-import type { WcWallet } from '@reown/appkit-controllers'
+import { ConstantsUtil as CommonConstantsUtil } from '@cotofe/appkit-common'
+import type { ChainNamespace } from '@cotofe/appkit-common'
+import type { WcWallet } from '@cotofe/appkit-controllers'
 import {
   AssetUtil,
   ChainController,
@@ -12,10 +12,10 @@ import {
   ConnectorController,
   CoreHelperUtil,
   StorageUtil
-} from '@reown/appkit-controllers'
-import { customElement } from '@reown/appkit-ui'
-import '@reown/appkit-ui/wui-flex'
-import '@reown/appkit-ui/wui-list-wallet'
+} from '@cotofe/appkit-controllers'
+import { customElement } from '@cotofe/appkit-ui'
+import '@cotofe/appkit-ui/wui-flex'
+import '@cotofe/appkit-ui/wui-list-wallet'
 
 import { WalletUtil } from '../../utils/WalletUtil.js'
 

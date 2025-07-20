@@ -1,5 +1,5 @@
-import { type ChainNamespace } from '@reown/appkit-common'
-import type { Connection } from '@reown/appkit-common'
+import { type ChainNamespace } from '@cotofe/appkit-common'
+import type { Connection } from '@cotofe/appkit-common'
 
 import { ConnectionController } from '../controllers/ConnectionController.js'
 import { ConnectorController } from '../controllers/ConnectorController.js'

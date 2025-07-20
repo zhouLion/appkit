@@ -6,7 +6,7 @@ import {
   type CaipAddress,
   type CaipNetwork,
   ConstantsUtil
-} from '@reown/appkit-common'
+} from '@cotofe/appkit-common'
 import {
   type ChainAdapter,
   ChainController,
@@ -14,8 +14,8 @@ import {
   type NetworkControllerClient,
   RouterController,
   SendController
-} from '@reown/appkit-controllers'
-import type { WuiButton } from '@reown/appkit-ui/wui-button'
+} from '@cotofe/appkit-controllers'
+import type { WuiButton } from '@cotofe/appkit-ui/wui-button'
 
 import { W3mWalletSendPreviewView } from '../../src/views/w3m-wallet-send-preview-view'
 

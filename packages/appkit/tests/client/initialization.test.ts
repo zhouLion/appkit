@@ -1,7 +1,7 @@
 import UniversalProvider from '@walletconnect/universal-provider'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 
-import { type AppKitNetwork } from '@reown/appkit-common'
+import { type AppKitNetwork } from '@cotofe/appkit-common'
 import {
   AlertController,
   ApiController,
@@ -11,8 +11,8 @@ import {
   OptionsController,
   PublicStateController,
   StorageUtil
-} from '@reown/appkit-controllers'
-import { ErrorUtil } from '@reown/appkit-utils'
+} from '@cotofe/appkit-controllers'
+import { ErrorUtil } from '@cotofe/appkit-utils'
 
 import { AppKit } from '../../src/client/appkit.js'
 import { mainnet, polygon, sepolia, solana } from '../mocks/Networks'

@@ -5,7 +5,7 @@ import {
   polygon,
   solana,
   solanaTestnet
-} from '@reown/appkit/networks'
+} from '@cotofe/appkit/networks'
 
 export function getBalanceSymbolByLibrary(library: string) {
   switch (library) {

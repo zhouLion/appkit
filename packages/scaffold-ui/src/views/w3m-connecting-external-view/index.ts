@@ -1,6 +1,6 @@
-import { type ChainNamespace, ConstantsUtil as CommonConstantsUtil } from '@reown/appkit-common'
-import type { Connection } from '@reown/appkit-common'
-import type { BaseError, Connector } from '@reown/appkit-controllers'
+import { type ChainNamespace, ConstantsUtil as CommonConstantsUtil } from '@cotofe/appkit-common'
+import type { Connection } from '@cotofe/appkit-common'
+import type { BaseError, Connector } from '@cotofe/appkit-controllers'
 import {
   ChainController,
   ConnectionController,
@@ -11,9 +11,9 @@ import {
   OptionsController,
   RouterController,
   SnackController
-} from '@reown/appkit-controllers'
-import { customElement } from '@reown/appkit-ui'
-import { HelpersUtil } from '@reown/appkit-utils'
+} from '@cotofe/appkit-controllers'
+import { customElement } from '@cotofe/appkit-ui'
+import { HelpersUtil } from '@cotofe/appkit-utils'
 
 import { W3mConnectingWidget } from '../../utils/w3m-connecting-widget/index.js'
 

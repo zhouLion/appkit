@@ -8,9 +8,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@reown/appkit": "workspace:*",
-    "@reown/appkit-adapter-ethers": "workspace:*",
-    "@reown/appkit-adapter-solana": "workspace:*",
+    "@cotofe/appkit": "workspace:*",
+    "@cotofe/appkit-adapter-ethers": "workspace:*",
+    "@cotofe/appkit-adapter-solana": "workspace:*",
     "ethers": "5.8.0",
     "vue": "3.4.3"
   },

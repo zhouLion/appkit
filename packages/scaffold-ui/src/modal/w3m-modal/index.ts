@@ -7,7 +7,7 @@ import {
   type CaipNetwork,
   ConstantsUtil as CommonConstantsUtil,
   ParseUtil
-} from '@reown/appkit-common'
+} from '@cotofe/appkit-common'
 import {
   ApiController,
   ChainController,
@@ -20,10 +20,10 @@ import {
   SIWXUtil,
   SnackController,
   ThemeController
-} from '@reown/appkit-controllers'
-import { UiHelperUtil, customElement, initializeTheming } from '@reown/appkit-ui'
-import '@reown/appkit-ui/wui-card'
-import '@reown/appkit-ui/wui-flex'
+} from '@cotofe/appkit-controllers'
+import { UiHelperUtil, customElement, initializeTheming } from '@cotofe/appkit-ui'
+import '@cotofe/appkit-ui/wui-card'
+import '@cotofe/appkit-ui/wui-flex'
 
 import '../../partials/w3m-alertbar/index.js'
 import '../../partials/w3m-header/index.js'

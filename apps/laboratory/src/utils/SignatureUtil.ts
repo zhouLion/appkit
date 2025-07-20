@@ -1,6 +1,6 @@
 import { createPublicClient, http } from 'viem'
 
-import type { Address, Hex } from '@reown/appkit-common'
+import type { Address, Hex } from '@cotofe/appkit-common'
 
 function getTransport({ chainId }: { chainId: number }) {
   return http(

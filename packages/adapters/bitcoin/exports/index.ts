@@ -1,3 +1,3 @@
-import '@reown/appkit-polyfills'
+import '@cotofe/appkit-polyfills'
 
 export * from '../src/index.js'

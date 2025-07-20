@@ -1,8 +1,8 @@
 import { LitElement, html } from 'lit'
 import { property } from 'lit/decorators.js'
 
-import { ConstantsUtil } from '@reown/appkit-common'
-import { ChainController, ConnectorController } from '@reown/appkit-controllers'
+import { ConstantsUtil } from '@cotofe/appkit-common'
+import { ChainController, ConnectorController } from '@cotofe/appkit-controllers'
 
 import '../../components/wui-icon/index.js'
 import '../../components/wui-image/index.js'

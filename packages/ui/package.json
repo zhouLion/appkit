@@ -1,5 +1,5 @@
 {
-  "name": "@reown/appkit-ui",
+  "name": "@cotofe/appkit-ui",
   "version": "1.7.15",
   "type": "module",
   "main": "./dist/esm/index.js",
@@ -432,9 +432,9 @@
   "dependencies": {
     "lit": "3.3.0",
     "qrcode": "1.5.3",
-    "@reown/appkit-wallet": "workspace:*",
-    "@reown/appkit-controllers": "workspace:*",
-    "@reown/appkit-common": "workspace:*"
+    "@cotofe/appkit-wallet": "workspace:*",
+    "@cotofe/appkit-controllers": "workspace:*",
+    "@cotofe/appkit-common": "workspace:*"
   },
   "devDependencies": {
     "@types/qrcode": "1.5.5",
@@ -449,13 +449,13 @@
   },
   "author": "Reown (https://discord.gg/reown)",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/reown-com/appkit",
+  "homepage": "https://github.com/zhouLion/appkit",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reown-com/appkit.git"
+    "url": "git+https://github.com/zhouLion/appkit.git"
   },
   "bugs": {
-    "url": "https://github.com/reown-com/appkit/issues"
+    "url": "https://github.com/zhouLion/appkit/issues"
   },
   "keywords": [
     "appkit",

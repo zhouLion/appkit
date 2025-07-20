@@ -1,5 +1,5 @@
 {
-  "name": "@reown/appkit-controllers",
+  "name": "@cotofe/appkit-controllers",
   "version": "1.7.15",
   "sideEffects": false,
   "type": "module",
@@ -51,8 +51,8 @@
     }
   },
   "dependencies": {
-    "@reown/appkit-common": "workspace:*",
-    "@reown/appkit-wallet": "workspace:*",
+    "@cotofe/appkit-common": "workspace:*",
+    "@cotofe/appkit-wallet": "workspace:*",
     "@walletconnect/universal-provider": "2.21.5",
     "valtio": "2.1.5",
     "viem": ">=2.32.0"
@@ -68,13 +68,13 @@
   },
   "author": "Reown (https://discord.gg/reown)",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/reown-com/appkit",
+  "homepage": "https://github.com/zhouLion/appkit",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reown-com/appkit.git"
+    "url": "git+https://github.com/zhouLion/appkit.git"
   },
   "bugs": {
-    "url": "https://github.com/reown-com/appkit/issues"
+    "url": "https://github.com/zhouLion/appkit/issues"
   },
   "keywords": [
     "appkit",

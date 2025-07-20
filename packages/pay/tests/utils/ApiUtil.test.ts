@@ -6,7 +6,7 @@ import { API_URL } from '../../src/utils/ConstantsUtil.js'
 // --- Mocks -------------------------------------------------------------------
 const MOCK_PROJECT_ID = 'mockProjectId'
 
-vi.mock('@reown/appkit-controllers', () => ({
+vi.mock('@cotofe/appkit-controllers', () => ({
   OptionsController: {
     getSnapshot: vi.fn(
       () =>

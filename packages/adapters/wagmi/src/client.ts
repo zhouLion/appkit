@@ -27,26 +27,26 @@ import { type Chain } from '@wagmi/core/chains'
 import type UniversalProvider from '@walletconnect/universal-provider'
 import { type Address, type Hex, formatUnits, parseUnits } from 'viem'
 
-import { AppKit, type AppKitOptions } from '@reown/appkit'
+import { AppKit, type AppKitOptions } from '@cotofe/appkit'
 import type {
   AppKitNetwork,
   BaseNetwork,
   CaipNetwork,
   Connection,
   CustomRpcUrlMap
-} from '@reown/appkit-common'
-import { ConstantsUtil as CommonConstantsUtil, NetworkUtil } from '@reown/appkit-common'
+} from '@cotofe/appkit-common'
+import { ConstantsUtil as CommonConstantsUtil, NetworkUtil } from '@cotofe/appkit-common'
 import {
   ChainController,
   CoreHelperUtil,
   OptionsController,
   StorageUtil
-} from '@reown/appkit-controllers'
-import { type ConnectorType, type Provider } from '@reown/appkit-controllers'
-import { CaipNetworksUtil, HelpersUtil, PresetsUtil } from '@reown/appkit-utils'
-import type { W3mFrameProvider } from '@reown/appkit-wallet'
-import { AdapterBlueprint } from '@reown/appkit/adapters'
-import { WalletConnectConnector } from '@reown/appkit/connectors'
+} from '@cotofe/appkit-controllers'
+import { type ConnectorType, type Provider } from '@cotofe/appkit-controllers'
+import { CaipNetworksUtil, HelpersUtil, PresetsUtil } from '@cotofe/appkit-utils'
+import type { W3mFrameProvider } from '@cotofe/appkit-wallet'
+import { AdapterBlueprint } from '@cotofe/appkit/adapters'
+import { WalletConnectConnector } from '@cotofe/appkit/connectors'
 
 import { authConnector } from './connectors/AuthConnector.js'
 import { walletConnect } from './connectors/UniversalConnector.js'

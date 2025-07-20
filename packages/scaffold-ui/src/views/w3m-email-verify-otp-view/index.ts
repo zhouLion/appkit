@@ -7,8 +7,8 @@ import {
   OptionsController,
   RouterController,
   SnackController
-} from '@reown/appkit-controllers'
-import { customElement } from '@reown/appkit-ui'
+} from '@cotofe/appkit-controllers'
+import { customElement } from '@cotofe/appkit-ui'
 
 import { W3mEmailOtpWidget } from '../../utils/w3m-email-otp-widget/index.js'
 import type { OnOtpResendFn, OnOtpSubmitFn } from '../../utils/w3m-email-otp-widget/index.js'

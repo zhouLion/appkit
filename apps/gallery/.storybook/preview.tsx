@@ -5,7 +5,7 @@ import { GLOBALS_UPDATED, SET_GLOBALS } from '@storybook/core-events'
 import { addons } from '@storybook/preview-api'
 import { themes } from '@storybook/theming'
 
-import { initializeTheming, setColorTheme } from '@reown/appkit-ui'
+import { initializeTheming, setColorTheme } from '@cotofe/appkit-ui'
 
 // -- Utilities ------------------------------------------------------------
 initializeTheming({})

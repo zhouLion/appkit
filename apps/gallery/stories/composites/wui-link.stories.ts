@@ -2,9 +2,9 @@ import type { Meta } from '@storybook/web-components'
 
 import { html } from 'lit'
 
-import type { IconType } from '@reown/appkit-ui'
-import '@reown/appkit-ui/wui-link'
-import type { WuiLink } from '@reown/appkit-ui/wui-link'
+import type { IconType } from '@cotofe/appkit-ui'
+import '@cotofe/appkit-ui/wui-link'
+import type { WuiLink } from '@cotofe/appkit-ui/wui-link'
 
 import { iconOptions } from '../../utils/PresetUtils'
 

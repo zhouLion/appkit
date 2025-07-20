@@ -1,7 +1,7 @@
 import { proxy, subscribe as sub } from 'valtio/vanilla'
 import { subscribeKey as subKey } from 'valtio/vanilla/utils'
 
-import { type Address, ConstantsUtil, ParseUtil } from '@reown/appkit-common'
+import { type Address, ConstantsUtil, ParseUtil } from '@cotofe/appkit-common'
 import {
   AccountController,
   ChainController,
@@ -11,8 +11,8 @@ import {
   ModalController,
   RouterController,
   SnackController
-} from '@reown/appkit-controllers'
-import { ProviderUtil } from '@reown/appkit-utils'
+} from '@cotofe/appkit-controllers'
+import { ProviderUtil } from '@cotofe/appkit-utils'
 
 import {
   AppKitPayErrorCodes,

@@ -2,8 +2,8 @@ import type { Meta } from '@storybook/web-components'
 
 import { html } from 'lit'
 
-import '@reown/appkit-ui-new/src/composites/wui-shortcut'
-import type { WuiShortcut } from '@reown/appkit-ui-new/src/composites/wui-shortcut'
+import '@cotofe/appkit-ui-new/src/composites/wui-shortcut'
+import type { WuiShortcut } from '@cotofe/appkit-ui-new/src/composites/wui-shortcut'
 
 import { buttonShortcutOptions, iconOptions } from '../../utils/PresetUtils'
 

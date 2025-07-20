@@ -11,8 +11,8 @@ import {
   CoreHelperUtil,
   EventsController,
   OptionsController
-} from '@reown/appkit-controllers'
-import { W3mFrameProvider } from '@reown/appkit-wallet'
+} from '@cotofe/appkit-controllers'
+import { W3mFrameProvider } from '@cotofe/appkit-wallet'
 
 import { W3mSocialLoginWidget } from '../../src/partials/w3m-social-login-widget'
 import { HelpersUtil } from '../utils/HelpersUtil'

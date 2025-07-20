@@ -1,27 +1,27 @@
 ---
-'@reown/appkit': patch
-'@reown/appkit-adapter-bitcoin': patch
-'@reown/appkit-adapter-ethers': patch
-'@reown/appkit-adapter-ethers5': patch
-'@reown/appkit-adapter-solana': patch
-'@reown/appkit-adapter-wagmi': patch
-'@reown/appkit-utils': patch
-'@reown/appkit-cdn': patch
-'@reown/appkit-cli': patch
-'@reown/appkit-codemod': patch
-'@reown/appkit-common': patch
-'@reown/appkit-controllers': patch
-'@reown/appkit-core': patch
-'@reown/appkit-experimental': patch
-'@reown/appkit-pay': patch
-'@reown/appkit-polyfills': patch
-'@reown/appkit-scaffold-ui': patch
-'@reown/appkit-siwe': patch
-'@reown/appkit-siwx': patch
-'@reown/appkit-testing': patch
-'@reown/appkit-ui': patch
-'@reown/appkit-wallet': patch
-'@reown/appkit-wallet-button': patch
+'@cotofe/appkit': patch
+'@cotofe/appkit-adapter-bitcoin': patch
+'@cotofe/appkit-adapter-ethers': patch
+'@cotofe/appkit-adapter-ethers5': patch
+'@cotofe/appkit-adapter-solana': patch
+'@cotofe/appkit-adapter-wagmi': patch
+'@cotofe/appkit-utils': patch
+'@cotofe/appkit-cdn': patch
+'@cotofe/appkit-cli': patch
+'@cotofe/appkit-codemod': patch
+'@cotofe/appkit-common': patch
+'@cotofe/appkit-controllers': patch
+'@cotofe/appkit-core': patch
+'@cotofe/appkit-experimental': patch
+'@cotofe/appkit-pay': patch
+'@cotofe/appkit-polyfills': patch
+'@cotofe/appkit-scaffold-ui': patch
+'@cotofe/appkit-siwe': patch
+'@cotofe/appkit-siwx': patch
+'@cotofe/appkit-testing': patch
+'@cotofe/appkit-ui': patch
+'@cotofe/appkit-wallet': patch
+'@cotofe/appkit-wallet-button': patch
 ---
 
 Exports type definitions of Base class for better TS support when using hooks

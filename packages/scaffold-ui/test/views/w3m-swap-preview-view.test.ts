@@ -1,7 +1,7 @@
 import { expect as expectChai, fixture, html } from '@open-wc/testing'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 
-import type { Address, Hex } from '@reown/appkit-common'
+import type { Address, Hex } from '@cotofe/appkit-common'
 import {
   AccountController,
   type AccountControllerState,
@@ -11,7 +11,7 @@ import {
   SwapController,
   type SwapControllerState,
   type SwapTokenWithBalance
-} from '@reown/appkit-controllers'
+} from '@cotofe/appkit-controllers'
 
 import { W3mSwapPreviewView } from '../../src/views/w3m-swap-preview-view/index.js'
 

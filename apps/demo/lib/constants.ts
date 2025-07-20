@@ -1,4 +1,4 @@
-import { type ChainNamespace } from '@reown/appkit-common'
+import { type ChainNamespace } from '@cotofe/appkit-common'
 
 import { bellota, breeSerif, domine, ebGaramond, inter, notoSans } from '@/lib/fonts'
 import { NETWORK_OPTIONS } from '@/lib/networks'

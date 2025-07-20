@@ -7,12 +7,12 @@ import {
   CoreHelperUtil,
   RouterController,
   SnackController
-} from '@reown/appkit-controllers'
-import { customElement } from '@reown/appkit-ui'
-import '@reown/appkit-ui/wui-certified-switch'
-import '@reown/appkit-ui/wui-flex'
-import '@reown/appkit-ui/wui-icon-box'
-import '@reown/appkit-ui/wui-search-bar'
+} from '@cotofe/appkit-controllers'
+import { customElement } from '@cotofe/appkit-ui'
+import '@cotofe/appkit-ui/wui-certified-switch'
+import '@cotofe/appkit-ui/wui-flex'
+import '@cotofe/appkit-ui/wui-icon-box'
+import '@cotofe/appkit-ui/wui-search-bar'
 
 import '../../partials/w3m-all-wallets-list/index.js'
 import '../../partials/w3m-all-wallets-search/index.js'

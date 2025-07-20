@@ -1,4 +1,4 @@
-import { ConstantsUtil } from '@reown/appkit-common'
+import { ConstantsUtil } from '@cotofe/appkit-common'
 
 import type { ChainControllerState } from '../controllers/ChainController.js'
 

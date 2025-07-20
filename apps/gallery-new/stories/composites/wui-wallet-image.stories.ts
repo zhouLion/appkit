@@ -2,8 +2,8 @@ import type { Meta } from '@storybook/web-components'
 
 import { html } from 'lit'
 
-import '@reown/appkit-ui-new/src/composites/wui-wallet-image'
-import type { WuiWalletImage } from '@reown/appkit-ui-new/src/composites/wui-wallet-image'
+import '@cotofe/appkit-ui-new/src/composites/wui-wallet-image'
+import type { WuiWalletImage } from '@cotofe/appkit-ui-new/src/composites/wui-wallet-image'
 
 import { walletImageSrc } from '../../utils/PresetUtils'
 

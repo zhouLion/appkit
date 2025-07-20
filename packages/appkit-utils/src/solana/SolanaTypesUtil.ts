@@ -9,10 +9,10 @@ import type {
 } from '@solana/web3.js'
 import UniversalProvider from '@walletconnect/universal-provider'
 
-import type { CaipNetwork, ChainNamespace } from '@reown/appkit-common'
-import type { ConnectorType } from '@reown/appkit-controllers'
-import type { Provider as CoreProvider } from '@reown/appkit-controllers'
-import type { W3mFrameProvider, W3mFrameTypes } from '@reown/appkit-wallet'
+import type { CaipNetwork, ChainNamespace } from '@cotofe/appkit-common'
+import type { ConnectorType } from '@cotofe/appkit-controllers'
+import type { Provider as CoreProvider } from '@cotofe/appkit-controllers'
+import type { W3mFrameProvider, W3mFrameTypes } from '@cotofe/appkit-wallet'
 
 export type Connection = SolanaConnection
 

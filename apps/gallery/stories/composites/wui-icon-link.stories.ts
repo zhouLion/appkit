@@ -2,8 +2,8 @@ import type { Meta } from '@storybook/web-components'
 
 import { html } from 'lit'
 
-import '@reown/appkit-ui/wui-icon-link'
-import type { WuiIconLink } from '@reown/appkit-ui/wui-icon-link'
+import '@cotofe/appkit-ui/wui-icon-link'
+import type { WuiIconLink } from '@cotofe/appkit-ui/wui-icon-link'
 
 import { colorOptions, iconOptions } from '../../utils/PresetUtils'
 

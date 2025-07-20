@@ -1,11 +1,11 @@
 'use client'
 
-import { BitcoinAdapter } from '@reown/appkit-adapter-bitcoin'
-import { EthersAdapter } from '@reown/appkit-adapter-ethers'
-import { SolanaAdapter } from '@reown/appkit-adapter-solana'
-import { DefaultSIWX } from '@reown/appkit-siwx'
-import { mainnet } from '@reown/appkit/networks'
-import { useAppKitNetwork } from '@reown/appkit/react'
+import { BitcoinAdapter } from '@cotofe/appkit-adapter-bitcoin'
+import { EthersAdapter } from '@cotofe/appkit-adapter-ethers'
+import { SolanaAdapter } from '@cotofe/appkit-adapter-solana'
+import { DefaultSIWX } from '@cotofe/appkit-siwx'
+import { mainnet } from '@cotofe/appkit/networks'
+import { useAppKitNetwork } from '@cotofe/appkit/react'
 
 import { AppKitButtons } from '@/src/components/AppKitButtons'
 import { AppKitInfo } from '@/src/components/AppKitInfo'

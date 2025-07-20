@@ -25,8 +25,8 @@ import { registerWallet } from '@wallet-standard/wallet'
 import type UniversalProvider from '@walletconnect/universal-provider'
 import bs58 from 'bs58'
 
-import { type CaipAddress, type CaipNetworkId, ParseUtil } from '@reown/appkit-common'
-import { RouterController } from '@reown/appkit-controllers'
+import { type CaipAddress, type CaipNetworkId, ParseUtil } from '@cotofe/appkit-common'
+import { RouterController } from '@cotofe/appkit-controllers'
 
 import { createNamespaces } from '../WCNamespaceUtil.js'
 import { SolConstantsUtil } from '../solana/SolanaConstantsUtil.js'

@@ -1,7 +1,7 @@
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 
-import type { CaipNetwork } from '@reown/appkit-common'
-import { ChainController } from '@reown/appkit-controllers'
+import type { CaipNetwork } from '@cotofe/appkit-common'
+import { ChainController } from '@cotofe/appkit-controllers'
 
 import { SolanaWalletConnectProvider } from '../providers/SolanaWalletConnectProvider.js'
 import { WalletConnectMethodNotSupportedError } from '../providers/shared/Errors.js'

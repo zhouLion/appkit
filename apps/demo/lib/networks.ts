@@ -1,4 +1,4 @@
-import { type ChainNamespace } from '@reown/appkit-common'
+import { type ChainNamespace } from '@cotofe/appkit-common'
 import {
   type AppKitNetwork,
   arbitrum,
@@ -13,7 +13,7 @@ import {
   solana,
   solanaDevnet,
   zksync
-} from '@reown/appkit/networks'
+} from '@cotofe/appkit/networks'
 
 export type NetworkOption = {
   namespace: ChainNamespace

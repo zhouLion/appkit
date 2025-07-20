@@ -2,9 +2,9 @@ import { isVersionedTransaction } from '@solana/wallet-adapter-base'
 import { Transaction, VersionedTransaction } from '@solana/web3.js'
 import { beforeAll, describe, expect, it, vi } from 'vitest'
 
-import { ConstantsUtil } from '@reown/appkit-common'
-import { ChainController } from '@reown/appkit-controllers'
-import type { Provider } from '@reown/appkit-utils/solana'
+import { ConstantsUtil } from '@cotofe/appkit-common'
+import { ChainController } from '@cotofe/appkit-controllers'
+import type { Provider } from '@cotofe/appkit-utils/solana'
 
 import { AuthProvider } from '../providers/AuthProvider.js'
 import { CoinbaseWalletProvider } from '../providers/CoinbaseWalletProvider.js'

@@ -2,7 +2,7 @@ import { LitElement, html } from 'lit'
 import { state } from 'lit/decorators.js'
 import { ifDefined } from 'lit/directives/if-defined.js'
 
-import { ConstantsUtil } from '@reown/appkit-common'
+import { ConstantsUtil } from '@cotofe/appkit-common'
 import {
   AssetUtil,
   type Connector,
@@ -10,12 +10,12 @@ import {
   CoreHelperUtil,
   RouterController,
   SnackController
-} from '@reown/appkit-controllers'
-import { customElement } from '@reown/appkit-ui'
-import '@reown/appkit-ui/wui-flex'
-import '@reown/appkit-ui/wui-list-wallet'
-import '@reown/appkit-ui/wui-text'
-import '@reown/appkit-ui/wui-wallet-image'
+} from '@cotofe/appkit-controllers'
+import { customElement } from '@cotofe/appkit-ui'
+import '@cotofe/appkit-ui/wui-flex'
+import '@cotofe/appkit-ui/wui-list-wallet'
+import '@cotofe/appkit-ui/wui-text'
+import '@cotofe/appkit-ui/wui-wallet-image'
 
 import styles from './styles.js'
 

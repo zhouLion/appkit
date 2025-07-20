@@ -7,7 +7,7 @@ import {
   useAppKitState,
   useAppKitTheme,
   useWalletInfo
-} from '@reown/appkit/react'
+} from '@cotofe/appkit/react'
 
 export function InfoList() {
   const accountState = useAppKitAccount()

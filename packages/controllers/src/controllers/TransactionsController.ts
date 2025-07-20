@@ -1,8 +1,8 @@
 import { proxy, subscribe as sub } from 'valtio/vanilla'
 
-import type { ChainNamespace, Transaction } from '@reown/appkit-common'
-import type { CaipNetworkId } from '@reown/appkit-common'
-import { W3mFrameRpcConstants } from '@reown/appkit-wallet/utils'
+import type { ChainNamespace, Transaction } from '@cotofe/appkit-common'
+import type { CaipNetworkId } from '@cotofe/appkit-common'
+import { W3mFrameRpcConstants } from '@cotofe/appkit-wallet/utils'
 
 import { getPreferredAccountType } from '../utils/ChainControllerUtil.js'
 import { withErrorBoundary } from '../utils/withErrorBoundary.js'

@@ -7,7 +7,7 @@
     "build": "vite build"
   },
   "dependencies": {
-    "@reown/appkit": "workspace:*",
+    "@cotofe/appkit": "workspace:*",
     "@walletconnect/sign-client": "2.21.5",
     "bs58": "6.0.0"
   },

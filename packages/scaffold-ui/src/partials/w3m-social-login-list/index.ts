@@ -8,13 +8,13 @@ import {
   OptionsController,
   RouterController,
   type SocialProvider
-} from '@reown/appkit-controllers'
-import { executeSocialLogin } from '@reown/appkit-controllers/utils'
-import { CoreHelperUtil } from '@reown/appkit-controllers/utils'
-import { customElement } from '@reown/appkit-ui'
-import '@reown/appkit-ui/wui-flex'
-import '@reown/appkit-ui/wui-list-social'
-import { W3mFrameProvider } from '@reown/appkit-wallet'
+} from '@cotofe/appkit-controllers'
+import { executeSocialLogin } from '@cotofe/appkit-controllers/utils'
+import { CoreHelperUtil } from '@cotofe/appkit-controllers/utils'
+import { customElement } from '@cotofe/appkit-ui'
+import '@cotofe/appkit-ui/wui-flex'
+import '@cotofe/appkit-ui/wui-list-social'
+import { W3mFrameProvider } from '@cotofe/appkit-wallet'
 
 import styles from './styles.js'
 

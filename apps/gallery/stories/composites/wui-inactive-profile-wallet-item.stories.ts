@@ -2,8 +2,8 @@ import type { Meta } from '@storybook/web-components'
 
 import { html } from 'lit'
 
-import '@reown/appkit-ui/wui-inactive-profile-wallet-item'
-import type { WuiInactiveProfileWalletItem } from '@reown/appkit-ui/wui-inactive-profile-wallet-item'
+import '@cotofe/appkit-ui/wui-inactive-profile-wallet-item'
+import type { WuiInactiveProfileWalletItem } from '@cotofe/appkit-ui/wui-inactive-profile-wallet-item'
 
 import '../../components/gallery-container'
 import { address, buttonOptions, iconOptions, walletImagesOptions } from '../../utils/PresetUtils'

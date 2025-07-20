@@ -10,7 +10,7 @@ export function Footer() {
           Docs
         </a>{' '}
         •{' '}
-        <a href="https://github.com/reown-com/appkit" target="_blank" rel="noreferrer">
+        <a href="https://github.com/zhouLion/appkit" target="_blank" rel="noreferrer">
           GitHub
         </a>{' '}
         •{' '}

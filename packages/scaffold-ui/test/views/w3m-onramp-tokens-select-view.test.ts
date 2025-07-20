@@ -10,7 +10,7 @@ import {
   OptionsController,
   OptionsStateController,
   type PurchaseCurrency
-} from '@reown/appkit-controllers'
+} from '@cotofe/appkit-controllers'
 
 import { W3mOnrampTokensView } from '../../src/views/w3m-onramp-tokens-select-view'
 

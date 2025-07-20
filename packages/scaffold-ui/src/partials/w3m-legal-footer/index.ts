@@ -1,11 +1,11 @@
 import { LitElement, html } from 'lit'
 import { state } from 'lit/decorators.js'
 
-import { OptionsController } from '@reown/appkit-controllers'
-import { customElement } from '@reown/appkit-ui'
-import '@reown/appkit-ui/wui-flex'
-import '@reown/appkit-ui/wui-text'
-import '@reown/appkit-ui/wui-ux-by-reown'
+import { OptionsController } from '@cotofe/appkit-controllers'
+import { customElement } from '@cotofe/appkit-ui'
+import '@cotofe/appkit-ui/wui-flex'
+import '@cotofe/appkit-ui/wui-text'
+import '@cotofe/appkit-ui/wui-ux-by-reown'
 
 import styles from './styles.js'
 

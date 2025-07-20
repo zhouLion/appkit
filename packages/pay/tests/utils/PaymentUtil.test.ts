@@ -1,8 +1,8 @@
 import { beforeEach, describe, expect, test, vi } from 'vitest'
 
-import { type Address, type CaipNetwork, ConstantsUtil, erc20ABI } from '@reown/appkit-common'
-import { ChainController, ConnectionController, CoreHelperUtil } from '@reown/appkit-controllers'
-import { ProviderUtil } from '@reown/appkit-utils'
+import { type Address, type CaipNetwork, ConstantsUtil, erc20ABI } from '@cotofe/appkit-common'
+import { ChainController, ConnectionController, CoreHelperUtil } from '@cotofe/appkit-controllers'
+import { ProviderUtil } from '@cotofe/appkit-utils'
 
 import { AppKitPayError, AppKitPayErrorCodes } from '../../src/types/errors'
 import type { PaymentAsset } from '../../src/types/options.js'
@@ -14,7 +14,7 @@ import {
 } from '../../src/utils/PaymentUtil'
 
 // --- Mocks -------------------------------------------------------------------
-vi.mock('@reown/appkit-controllers', () => ({
+vi.mock('@cotofe/appkit-controllers', () => ({
   ChainController: {
     switchActiveNetwork: vi.fn(),
     getNetworkProp: vi.fn()
@@ -31,7 +31,7 @@ vi.mock('@reown/appkit-controllers', () => ({
   }
 }))
 
-vi.mock('@reown/appkit-utils', () => ({
+vi.mock('@cotofe/appkit-utils', () => ({
   ProviderUtil: {
     getProvider: vi.fn()
   }

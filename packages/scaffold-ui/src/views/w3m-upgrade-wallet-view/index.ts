@@ -1,10 +1,10 @@
 import { LitElement, html } from 'lit'
 
-import { ConstantsUtil } from '@reown/appkit-controllers'
-import { customElement } from '@reown/appkit-ui'
-import '@reown/appkit-ui/wui-chip'
-import '@reown/appkit-ui/wui-flex'
-import '@reown/appkit-ui/wui-text'
+import { ConstantsUtil } from '@cotofe/appkit-controllers'
+import { customElement } from '@cotofe/appkit-ui'
+import '@cotofe/appkit-ui/wui-chip'
+import '@cotofe/appkit-ui/wui-flex'
+import '@cotofe/appkit-ui/wui-text'
 
 @customElement('w3m-upgrade-wallet-view')
 export class W3mUpgradeWalletView extends LitElement {

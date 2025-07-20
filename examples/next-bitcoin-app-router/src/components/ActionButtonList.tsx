@@ -2,7 +2,7 @@
 
 import { useTheme } from 'next-themes'
 
-import { bitcoinTestnet } from '@reown/appkit/networks'
+import { bitcoinTestnet } from '@cotofe/appkit/networks'
 
 import { useAppKit, useAppKitNetwork, useAppKitTheme, useDisconnect } from '@/config'
 

@@ -8,7 +8,7 @@ import type {
   ConnectorType,
   SIWXConfig,
   SocialProvider
-} from '@reown/appkit'
+} from '@cotofe/appkit'
 import {
   type Balance,
   type CaipNetwork,
@@ -16,7 +16,7 @@ import {
   SafeLocalStorage,
   SafeLocalStorageKeys,
   getSafeConnectorIdKey
-} from '@reown/appkit-common'
+} from '@cotofe/appkit-common'
 import {
   AccountController,
   ApiController,
@@ -35,9 +35,9 @@ import {
   SnackController,
   StorageUtil,
   ThemeController
-} from '@reown/appkit-controllers'
-import { CaipNetworksUtil, ConstantsUtil as UtilConstantsUtil } from '@reown/appkit-utils'
-import { ProviderUtil } from '@reown/appkit-utils'
+} from '@cotofe/appkit-controllers'
+import { CaipNetworksUtil, ConstantsUtil as UtilConstantsUtil } from '@cotofe/appkit-utils'
+import { ProviderUtil } from '@cotofe/appkit-utils'
 
 import { AppKit } from '../../src/client/appkit.js'
 import { mockUser, mockUserBalance } from '../mocks/Account.js'

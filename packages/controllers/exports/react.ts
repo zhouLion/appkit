@@ -2,7 +2,7 @@ import { useCallback } from 'react'
 
 import { useSnapshot } from 'valtio'
 
-import { type ChainNamespace, type Connection, ConstantsUtil } from '@reown/appkit-common'
+import { type ChainNamespace, type Connection, ConstantsUtil } from '@cotofe/appkit-common'
 
 import { AlertController } from '../src/controllers/AlertController.js'
 import { AssetController } from '../src/controllers/AssetController.js'
@@ -16,7 +16,7 @@ import type { UseAppKitAccountReturn, UseAppKitNetworkReturn } from '../src/util
 import { AssetUtil, StorageUtil } from './utils.js'
 
 // -- Types ------------------------------------------------------------
-export type { Connection } from '@reown/appkit-common'
+export type { Connection } from '@cotofe/appkit-common'
 
 interface DisconnectParams {
   id?: string

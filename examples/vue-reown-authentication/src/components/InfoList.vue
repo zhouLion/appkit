@@ -19,7 +19,7 @@
 <script>
 import { onMounted, onUnmounted, ref } from 'vue'
 
-import { useAppKitSIWX } from '@reown/appkit-siwx/vue'
+import { useAppKitSIWX } from '@cotofe/appkit-siwx/vue'
 import {
   useAppKitAccount,
   useAppKitEvents,
@@ -27,7 +27,7 @@ import {
   useAppKitState,
   useAppKitTheme,
   useWalletInfo
-} from '@reown/appkit/vue'
+} from '@cotofe/appkit/vue'
 
 export default {
   name: 'InfoList',

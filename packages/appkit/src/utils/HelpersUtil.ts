@@ -9,12 +9,12 @@ import {
   type ChainNamespace,
   ParseUtil,
   type ParsedCaipAddress
-} from '@reown/appkit-common'
+} from '@cotofe/appkit-common'
 import {
   CoreHelperUtil,
   EnsController,
   type OptionsControllerState
-} from '@reown/appkit-controllers'
+} from '@cotofe/appkit-controllers'
 
 import { solana, solanaDevnet } from '../networks/index.js'
 

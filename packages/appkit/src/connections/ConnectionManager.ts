@@ -4,13 +4,13 @@ import type {
   CaipNetwork,
   ChainNamespace,
   Connection as ConnectionType
-} from '@reown/appkit-common'
-import { ConstantsUtil as CommonConstantsUtil } from '@reown/appkit-common'
-import { type CombinedProvider, CoreHelperUtil, type Provider } from '@reown/appkit-controllers'
-import { ConnectorUtil } from '@reown/appkit-scaffold-ui/utils'
-import { HelpersUtil } from '@reown/appkit-utils'
-import { type BitcoinConnector, BitcoinConstantsUtil } from '@reown/appkit-utils/bitcoin'
-import type { Provider as SolanaProvider } from '@reown/appkit-utils/solana'
+} from '@cotofe/appkit-common'
+import { ConstantsUtil as CommonConstantsUtil } from '@cotofe/appkit-common'
+import { type CombinedProvider, CoreHelperUtil, type Provider } from '@cotofe/appkit-controllers'
+import { ConnectorUtil } from '@cotofe/appkit-scaffold-ui/utils'
+import { HelpersUtil } from '@cotofe/appkit-utils'
+import { type BitcoinConnector, BitcoinConstantsUtil } from '@cotofe/appkit-utils/bitcoin'
+import type { Provider as SolanaProvider } from '@cotofe/appkit-utils/solana'
 
 import type { ChainAdapterConnector } from '../adapters/ChainAdapterConnector.js'
 import { WcHelpersUtil } from '../utils/HelpersUtil.js'

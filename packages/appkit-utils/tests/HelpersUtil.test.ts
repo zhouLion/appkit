@@ -1,8 +1,8 @@
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 
-import { ConstantsUtil as CommonConstantsUtil } from '@reown/appkit-common'
-import type { Tokens } from '@reown/appkit-controllers'
-import { ChainController, ConnectorController } from '@reown/appkit-controllers'
+import { ConstantsUtil as CommonConstantsUtil } from '@cotofe/appkit-common'
+import type { Tokens } from '@cotofe/appkit-controllers'
+import { ChainController, ConnectorController } from '@cotofe/appkit-controllers'
 
 import { ConstantsUtil } from '../src/ConstantsUtil.js'
 import { HelpersUtil } from '../src/HelpersUtil.js'

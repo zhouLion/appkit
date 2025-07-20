@@ -8,8 +8,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@reown/appkit": "workspace:*",
-    "@reown/appkit-adapter-solana": "workspace:*",
+    "@cotofe/appkit": "workspace:*",
+    "@cotofe/appkit-adapter-solana": "workspace:*",
     "@solana/wallet-adapter-backpack": "0.1.14",
     "vue": "3.4.3"
   },

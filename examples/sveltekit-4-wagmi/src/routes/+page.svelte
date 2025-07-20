@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 	import { browser } from '$app/environment';
 	import { modal } from '$lib/appkit';
-	import { mainnet, polygon } from '@reown/appkit/networks';
+	import { mainnet, polygon } from '@cotofe/appkit/networks';
 	import { accountState, networkState, appKitState, themeState, events, walletInfo } from '$lib/store';
 
 	import ActionButton from '$lib/components/ActionButton.svelte';

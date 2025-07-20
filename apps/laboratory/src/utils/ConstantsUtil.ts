@@ -1,5 +1,5 @@
-import type { CaipNetwork, SocialProvider } from '@reown/appkit'
-import type { Wallet } from '@reown/appkit-wallet-button'
+import type { CaipNetwork, SocialProvider } from '@cotofe/appkit'
+import type { Wallet } from '@cotofe/appkit-wallet-button'
 import {
   abstract,
   arbitrum,
@@ -22,8 +22,8 @@ import {
   solanaTestnet,
   unichainSepolia,
   zkSync
-} from '@reown/appkit/networks'
-import type { AppKitNetwork } from '@reown/appkit/networks'
+} from '@cotofe/appkit/networks'
+import type { AppKitNetwork } from '@cotofe/appkit/networks'
 
 import { getLocalStorageItem } from './LocalStorage'
 
@@ -36,7 +36,7 @@ export const USEROP_BUILDER_SERVICE_BASE_URL = 'https://rpc.walletconnect.org/v1
 
 export const GALLERY_URL = 'https://appkit-gallery.reown.com/'
 export const DOCS_URL = 'https://docs.reown.com/appkit/overview'
-export const REPO_URL = 'https://github.com/reown-com/appkit'
+export const REPO_URL = 'https://github.com/zhouLion/appkit'
 
 export function getPublicUrl() {
   const isProduction = process.env['NODE_ENV'] === 'production'

@@ -6,15 +6,15 @@ import {
   ConnectionController,
   EventsController,
   ThemeController
-} from '@reown/appkit-controllers'
-import { customElement } from '@reown/appkit-ui'
-import '@reown/appkit-ui/wui-flex'
-import '@reown/appkit-ui/wui-icon'
-import '@reown/appkit-ui/wui-link'
-import '@reown/appkit-ui/wui-qr-code'
-import '@reown/appkit-ui/wui-shimmer'
-import '@reown/appkit-ui/wui-text'
-import '@reown/appkit-ui/wui-ux-by-reown'
+} from '@cotofe/appkit-controllers'
+import { customElement } from '@cotofe/appkit-ui'
+import '@cotofe/appkit-ui/wui-flex'
+import '@cotofe/appkit-ui/wui-icon'
+import '@cotofe/appkit-ui/wui-link'
+import '@cotofe/appkit-ui/wui-qr-code'
+import '@cotofe/appkit-ui/wui-shimmer'
+import '@cotofe/appkit-ui/wui-text'
+import '@cotofe/appkit-ui/wui-ux-by-reown'
 
 import { W3mConnectingWidget } from '../../utils/w3m-connecting-widget/index.js'
 import '../w3m-mobile-download-links/index.js'

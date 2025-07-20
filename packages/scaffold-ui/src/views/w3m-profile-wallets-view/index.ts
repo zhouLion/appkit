@@ -7,8 +7,8 @@ import {
   type ChainNamespace,
   ConstantsUtil as CommonConstantsUtil,
   ParseUtil
-} from '@reown/appkit-common'
-import type { Connection } from '@reown/appkit-common'
+} from '@cotofe/appkit-common'
+import type { Connection } from '@cotofe/appkit-common'
 import {
   AccountController,
   AssetUtil,
@@ -21,19 +21,19 @@ import {
   RouterController,
   SnackController,
   StorageUtil
-} from '@reown/appkit-controllers'
-import { MathUtil, customElement } from '@reown/appkit-ui'
-import '@reown/appkit-ui/wui-active-profile-wallet-item'
-import '@reown/appkit-ui/wui-balance'
-import '@reown/appkit-ui/wui-button'
-import '@reown/appkit-ui/wui-icon'
-import '@reown/appkit-ui/wui-icon-box'
-import '@reown/appkit-ui/wui-inactive-profile-wallet-item'
-import '@reown/appkit-ui/wui-list-item'
-import '@reown/appkit-ui/wui-separator'
-import '@reown/appkit-ui/wui-tabs'
-import '@reown/appkit-ui/wui-text'
-import { HelpersUtil } from '@reown/appkit-utils'
+} from '@cotofe/appkit-controllers'
+import { MathUtil, customElement } from '@cotofe/appkit-ui'
+import '@cotofe/appkit-ui/wui-active-profile-wallet-item'
+import '@cotofe/appkit-ui/wui-balance'
+import '@cotofe/appkit-ui/wui-button'
+import '@cotofe/appkit-ui/wui-icon'
+import '@cotofe/appkit-ui/wui-icon-box'
+import '@cotofe/appkit-ui/wui-inactive-profile-wallet-item'
+import '@cotofe/appkit-ui/wui-list-item'
+import '@cotofe/appkit-ui/wui-separator'
+import '@cotofe/appkit-ui/wui-tabs'
+import '@cotofe/appkit-ui/wui-text'
+import { HelpersUtil } from '@cotofe/appkit-utils'
 
 import { ConnectionUtil } from '../../utils/ConnectionUtil.js'
 import styles from './styles.js'

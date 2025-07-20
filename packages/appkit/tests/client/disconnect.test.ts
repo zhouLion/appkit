@@ -2,7 +2,7 @@ import UniversalProvider from '@walletconnect/universal-provider'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import type { MockInstance } from 'vitest'
 
-import { ConstantsUtil as CommonConstantsUtil } from '@reown/appkit-common'
+import { ConstantsUtil as CommonConstantsUtil } from '@cotofe/appkit-common'
 import {
   ChainController,
   ConnectionController,
@@ -13,8 +13,8 @@ import {
   type SIWXConfig,
   SIWXUtil,
   StorageUtil
-} from '@reown/appkit-controllers'
-import { ProviderUtil, ConstantsUtil as UtilConstantsUtil } from '@reown/appkit-utils'
+} from '@cotofe/appkit-controllers'
+import { ProviderUtil, ConstantsUtil as UtilConstantsUtil } from '@cotofe/appkit-utils'
 
 import { AppKit } from '../../src/client/appkit.js'
 import { mockEvmAdapter, mockSolanaAdapter } from '../mocks/Adapter.js'

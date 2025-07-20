@@ -2,8 +2,8 @@ import type { Meta } from '@storybook/web-components'
 
 import { html } from 'lit'
 
-import '@reown/appkit-ui-new/src/composites/wui-email-input'
-import type { WuiEmailInput } from '@reown/appkit-ui-new/src/composites/wui-email-input'
+import '@cotofe/appkit-ui-new/src/composites/wui-email-input'
+import type { WuiEmailInput } from '@cotofe/appkit-ui-new/src/composites/wui-email-input'
 
 import '../../components/gallery-container'
 

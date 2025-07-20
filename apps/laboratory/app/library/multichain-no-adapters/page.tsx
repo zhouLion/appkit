@@ -1,7 +1,7 @@
 'use client'
 
-import { type AppKitNetwork, bitcoin, mainnet, solana } from '@reown/appkit/networks'
-import { useAppKitNetwork } from '@reown/appkit/react'
+import { type AppKitNetwork, bitcoin, mainnet, solana } from '@cotofe/appkit/networks'
+import { useAppKitNetwork } from '@cotofe/appkit/react'
 
 import { AppKitButtons } from '@/src/components/AppKitButtons'
 import { AppKitInfo } from '@/src/components/AppKitInfo'

@@ -1,11 +1,11 @@
 import { LitElement, html } from 'lit'
 import { state } from 'lit/decorators.js'
 
-import { OptionsController, SIWXUtil } from '@reown/appkit-controllers'
-import { customElement } from '@reown/appkit-ui'
-import '@reown/appkit-ui/wui-button'
-import '@reown/appkit-ui/wui-flex'
-import '@reown/appkit-ui/wui-text'
+import { OptionsController, SIWXUtil } from '@cotofe/appkit-controllers'
+import { customElement } from '@cotofe/appkit-ui'
+import '@cotofe/appkit-ui/wui-button'
+import '@cotofe/appkit-ui/wui-flex'
+import '@cotofe/appkit-ui/wui-text'
 
 import '../../partials/w3m-siwx-sign-message-thumbnails/index.js'
 

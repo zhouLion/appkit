@@ -8,9 +8,9 @@ import {
   CoreHelperUtil,
   OptionsController,
   RouterController
-} from '@reown/appkit-controllers'
-import * as SocialLoginUtils from '@reown/appkit-controllers/utils'
-import { W3mFrameProvider } from '@reown/appkit-wallet'
+} from '@cotofe/appkit-controllers'
+import * as SocialLoginUtils from '@cotofe/appkit-controllers/utils'
+import { W3mFrameProvider } from '@cotofe/appkit-wallet'
 
 import { W3mSocialLoginList } from '../../src/partials/w3m-social-login-list'
 import { HelpersUtil } from '../utils/HelpersUtil'

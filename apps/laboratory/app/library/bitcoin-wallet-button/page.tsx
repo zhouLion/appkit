@@ -1,7 +1,7 @@
 'use client'
 
-import { BitcoinAdapter } from '@reown/appkit-adapter-bitcoin'
-import { type CaipNetwork } from '@reown/appkit/react'
+import { BitcoinAdapter } from '@cotofe/appkit-adapter-bitcoin'
+import { type CaipNetwork } from '@cotofe/appkit/react'
 
 import { AppKitButtons } from '@/src/components/AppKitButtons'
 import { AppKitWalletButtons } from '@/src/components/AppKitWalletButtons'

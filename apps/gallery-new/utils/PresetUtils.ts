@@ -1,5 +1,5 @@
-import type { TransactionStatus } from '@reown/appkit-common'
-import type { TransactionType } from '@reown/appkit-ui-new'
+import type { TransactionStatus } from '@cotofe/appkit-common'
+import type { TransactionType } from '@cotofe/appkit-ui-new'
 import type {
   AccountEntryType,
   BackgroundType,
@@ -33,7 +33,7 @@ import type {
   ThemeType,
   ToastMessageVariant,
   VisualType
-} from '@reown/appkit-ui-new/src/utils/TypeUtil'
+} from '@cotofe/appkit-ui-new/src/utils/TypeUtil'
 
 export const textColorOptions: TextColorType[] = [
   'primary',

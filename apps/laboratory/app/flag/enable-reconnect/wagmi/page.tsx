@@ -3,9 +3,9 @@
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { WagmiProvider } from 'wagmi'
 
-import { BitcoinAdapter } from '@reown/appkit-adapter-bitcoin'
-import { SolanaAdapter } from '@reown/appkit-adapter-solana/react'
-import { WagmiAdapter } from '@reown/appkit-adapter-wagmi'
+import { BitcoinAdapter } from '@cotofe/appkit-adapter-bitcoin'
+import { SolanaAdapter } from '@cotofe/appkit-adapter-solana/react'
+import { WagmiAdapter } from '@cotofe/appkit-adapter-wagmi'
 
 import { AppKitButtons } from '@/src/components/AppKitButtons'
 import { AppKitConnections } from '@/src/components/AppKitConnections'

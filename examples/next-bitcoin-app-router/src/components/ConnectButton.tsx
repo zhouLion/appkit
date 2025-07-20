@@ -2,7 +2,7 @@
 
 import { useAccount } from 'wagmi'
 
-import { useAppKitAccount } from '@reown/appkit/react'
+import { useAppKitAccount } from '@cotofe/appkit/react'
 
 const compactHash = (hash: string) => {
   return hash.slice(0, 7) + '...' + hash.slice(-5)

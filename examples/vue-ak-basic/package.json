@@ -8,7 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@reown/appkit": "workspace:*",
+    "@cotofe/appkit": "workspace:*",
     "vue": "3.4.3"
   },
   "devDependencies": {

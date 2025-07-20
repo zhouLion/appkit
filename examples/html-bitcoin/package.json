@@ -7,8 +7,8 @@
     "build": "vite build"
   },
   "dependencies": {
-    "@reown/appkit-adapter-bitcoin": "workspace:*",
-    "@reown/appkit": "workspace:*"
+    "@cotofe/appkit-adapter-bitcoin": "workspace:*",
+    "@cotofe/appkit": "workspace:*"
   },
   "devDependencies": {
     "vite": "5.4.19"

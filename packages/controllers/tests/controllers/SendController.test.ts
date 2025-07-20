@@ -1,7 +1,7 @@
 import { mainnet } from 'viem/chains'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 
-import { type Balance, type CaipNetwork, ConstantsUtil } from '@reown/appkit-common'
+import { type Balance, type CaipNetwork, ConstantsUtil } from '@cotofe/appkit-common'
 
 import {
   ChainController,

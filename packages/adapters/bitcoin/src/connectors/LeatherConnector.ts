@@ -5,8 +5,8 @@ import type {
   SignPsbtResponseBody
 } from '@leather.io/rpc'
 
-import type { BitcoinConnector } from '@reown/appkit-utils/bitcoin'
-import { bitcoin, bitcoinTestnet } from '@reown/appkit/networks'
+import type { BitcoinConnector } from '@cotofe/appkit-utils/bitcoin'
+import { bitcoin, bitcoinTestnet } from '@cotofe/appkit/networks'
 
 import { SatsConnectConnector } from './SatsConnectConnector.js'
 

@@ -3,7 +3,7 @@ import { afterEach, describe, expect, it, vi } from 'vitest'
 
 import { html } from 'lit'
 
-import { AccountController, OptionsController, RouterController } from '@reown/appkit-controllers'
+import { AccountController, OptionsController, RouterController } from '@cotofe/appkit-controllers'
 
 import { W3mAccountTokensWidget } from '../../src/partials/w3m-account-tokens-widget'
 import { HelpersUtil } from '../utils/HelpersUtil'

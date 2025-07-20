@@ -5,8 +5,8 @@ import { type Abi, encodeFunctionData, parseEther } from 'viem'
 import { useAccount, useSwitchChain } from 'wagmi'
 import { useSendCalls } from 'wagmi'
 
-import type { Address } from '@reown/appkit-common'
-import { useAppKitAccount } from '@reown/appkit/react'
+import type { Address } from '@cotofe/appkit-common'
+import { useAppKitAccount } from '@cotofe/appkit/react'
 
 import { useChakraToast } from '@/src/components/Toast'
 import { useWagmiAvailableCapabilities } from '@/src/hooks/useWagmiActiveCapabilities'

@@ -54,7 +54,7 @@ import {
   useAppKitState,
   useAppKitTheme,
   useWalletInfo
-} from '@reown/appkit/vue'
+} from '@cotofe/appkit/vue'
 
 export default {
   name: 'InfoList',

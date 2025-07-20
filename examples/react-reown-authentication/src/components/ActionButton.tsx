@@ -1,5 +1,5 @@
-import { mainnet } from '@reown/appkit/networks'
-import { useAppKit, useAppKitNetwork, useAppKitTheme, useDisconnect } from '@reown/appkit/react'
+import { mainnet } from '@cotofe/appkit/networks'
+import { useAppKit, useAppKitNetwork, useAppKitTheme, useDisconnect } from '@cotofe/appkit/react'
 
 export function ActionButtonList() {
   const modal = useAppKit()

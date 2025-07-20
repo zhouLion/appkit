@@ -15,7 +15,7 @@ The codemod tool allows you to update dependencies across multiple `package.json
 You can use the Codemod globally using npx/pnpx:
 
 ```bash
-pnpx @reown/appkit-codemod <process> <args...>
+pnpx @cotofe/appkit-codemod <process> <args...>
 ```
 
 ### Options

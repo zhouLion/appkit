@@ -1,11 +1,11 @@
 import { LitElement, html } from 'lit'
 import { property } from 'lit/decorators.js'
 
-import type { VisualType } from '@reown/appkit-ui'
-import { customElement } from '@reown/appkit-ui'
-import '@reown/appkit-ui/wui-flex'
-import '@reown/appkit-ui/wui-text'
-import '@reown/appkit-ui/wui-visual'
+import type { VisualType } from '@cotofe/appkit-ui'
+import { customElement } from '@cotofe/appkit-ui'
+import '@cotofe/appkit-ui/wui-flex'
+import '@cotofe/appkit-ui/wui-text'
+import '@cotofe/appkit-ui/wui-visual'
 
 type Data = {
   images: VisualType[]

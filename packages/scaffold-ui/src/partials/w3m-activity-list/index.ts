@@ -1,8 +1,8 @@
 import { LitElement, html } from 'lit'
 import { property, state } from 'lit/decorators.js'
 
-import { DateUtil } from '@reown/appkit-common'
-import type { Transaction, TransactionImage } from '@reown/appkit-common'
+import { DateUtil } from '@cotofe/appkit-common'
+import type { Transaction, TransactionImage } from '@cotofe/appkit-common'
 import {
   ChainController,
   CoreHelperUtil,
@@ -11,16 +11,16 @@ import {
   RouterController,
   TransactionsController,
   getPreferredAccountType
-} from '@reown/appkit-controllers'
-import { TransactionUtil, customElement } from '@reown/appkit-ui'
-import type { TransactionType } from '@reown/appkit-ui'
-import '@reown/appkit-ui/wui-flex'
-import '@reown/appkit-ui/wui-icon-box'
-import '@reown/appkit-ui/wui-link'
-import '@reown/appkit-ui/wui-text'
-import '@reown/appkit-ui/wui-transaction-list-item'
-import '@reown/appkit-ui/wui-transaction-list-item-loader'
-import { W3mFrameRpcConstants } from '@reown/appkit-wallet/utils'
+} from '@cotofe/appkit-controllers'
+import { TransactionUtil, customElement } from '@cotofe/appkit-ui'
+import type { TransactionType } from '@cotofe/appkit-ui'
+import '@cotofe/appkit-ui/wui-flex'
+import '@cotofe/appkit-ui/wui-icon-box'
+import '@cotofe/appkit-ui/wui-link'
+import '@cotofe/appkit-ui/wui-text'
+import '@cotofe/appkit-ui/wui-transaction-list-item'
+import '@cotofe/appkit-ui/wui-transaction-list-item-loader'
+import { W3mFrameRpcConstants } from '@cotofe/appkit-wallet/utils'
 
 import styles from './styles.js'
 

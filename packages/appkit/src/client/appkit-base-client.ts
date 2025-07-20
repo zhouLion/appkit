@@ -12,8 +12,8 @@ import type {
   Hex,
   ParsedCaipAddress,
   SdkVersion
-} from '@reown/appkit-common'
-import { ConstantsUtil, NetworkUtil, ParseUtil } from '@reown/appkit-common'
+} from '@cotofe/appkit-common'
+import { ConstantsUtil, NetworkUtil, ParseUtil } from '@cotofe/appkit-common'
 import type {
   AccountControllerState,
   ConnectMethod,
@@ -39,7 +39,7 @@ import type {
   UseAppKitNetworkReturn,
   WalletFeature,
   WriteContractArgs
-} from '@reown/appkit-controllers'
+} from '@cotofe/appkit-controllers'
 import {
   AccountController,
   AlertController,
@@ -65,18 +65,18 @@ import {
   StorageUtil,
   ThemeController,
   getPreferredAccountType
-} from '@reown/appkit-controllers'
-import { WalletUtil } from '@reown/appkit-scaffold-ui/utils'
-import { setColorTheme, setThemeVariables } from '@reown/appkit-ui'
+} from '@cotofe/appkit-controllers'
+import { WalletUtil } from '@cotofe/appkit-scaffold-ui/utils'
+import { setColorTheme, setThemeVariables } from '@cotofe/appkit-ui'
 import {
   CaipNetworksUtil,
   ErrorUtil,
   HelpersUtil,
   LoggerUtil,
   ConstantsUtil as UtilConstantsUtil
-} from '@reown/appkit-utils'
-import { ProviderUtil } from '@reown/appkit-utils'
-import type { ProviderStoreUtilState } from '@reown/appkit-utils'
+} from '@cotofe/appkit-utils'
+import { ProviderUtil } from '@cotofe/appkit-utils'
+import type { ProviderStoreUtilState } from '@cotofe/appkit-utils'
 
 import type { AdapterBlueprint } from '../adapters/index.js'
 import { UniversalAdapter } from '../universal-adapter/client.js'

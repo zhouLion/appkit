@@ -5,9 +5,9 @@ import type {
   ChainNamespace,
   ParsedCaipAddress,
   SdkVersion
-} from '@reown/appkit-common'
-import { ConstantsUtil as CommonConstants } from '@reown/appkit-common'
-import type { CaipAddress, CaipNetwork } from '@reown/appkit-common'
+} from '@cotofe/appkit-common'
+import { ConstantsUtil as CommonConstants } from '@cotofe/appkit-common'
+import type { CaipAddress, CaipNetwork } from '@cotofe/appkit-common'
 
 import { ConstantsUtil } from './ConstantsUtil.js'
 import { StorageUtil } from './StorageUtil.js'

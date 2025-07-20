@@ -1,5 +1,5 @@
 {
-  "name": "@reown/appkit-siwx",
+  "name": "@cotofe/appkit-siwx",
   "version": "1.7.15",
   "sideEffects": false,
   "type": "module",
@@ -36,9 +36,9 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
-    "@reown/appkit-common": "workspace:*",
-    "@reown/appkit-controllers": "workspace:*",
-    "@reown/appkit-utils": "workspace:*",
+    "@cotofe/appkit-common": "workspace:*",
+    "@cotofe/appkit-controllers": "workspace:*",
+    "@cotofe/appkit-utils": "workspace:*",
     "bip322-js": "2.0.0",
     "bs58": "6.0.0",
     "tweetnacl": "1.0.3",
@@ -54,13 +54,13 @@
   },
   "author": "Reown (https://discord.gg/reown)",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/reown-com/appkit",
+  "homepage": "https://github.com/zhouLion/appkit",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reown-com/appkit.git"
+    "url": "git+https://github.com/zhouLion/appkit.git"
   },
   "bugs": {
-    "url": "https://github.com/reown-com/appkit/issues"
+    "url": "https://github.com/zhouLion/appkit/issues"
   },
   "keywords": [
     "appkit",

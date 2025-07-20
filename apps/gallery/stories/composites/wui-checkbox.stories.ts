@@ -2,10 +2,10 @@ import type { Meta } from '@storybook/web-components'
 
 import { html } from 'lit'
 
-import '@reown/appkit-ui/wui-checkbox'
-import type { WuiCheckBox } from '@reown/appkit-ui/wui-checkbox'
-import '@reown/appkit-ui/wui-icon'
-import '@reown/appkit-ui/wui-text'
+import '@cotofe/appkit-ui/wui-checkbox'
+import type { WuiCheckBox } from '@cotofe/appkit-ui/wui-checkbox'
+import '@cotofe/appkit-ui/wui-icon'
+import '@cotofe/appkit-ui/wui-text'
 
 type Component = Meta<WuiCheckBox>
 

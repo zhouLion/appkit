@@ -3,8 +3,8 @@
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { WagmiProvider } from 'wagmi'
 
-import type { AppKitOptions } from '@reown/appkit'
-import { WagmiAdapter } from '@reown/appkit-adapter-wagmi'
+import type { AppKitOptions } from '@cotofe/appkit'
+import { WagmiAdapter } from '@cotofe/appkit-adapter-wagmi'
 
 import { AppKitButtons } from '@/src/components/AppKitButtons'
 import { AppKitInfo } from '@/src/components/AppKitInfo'

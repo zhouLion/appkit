@@ -1,6 +1,6 @@
-import type { CaipNetwork } from '@reown/appkit'
-import { ConstantsUtil } from '@reown/appkit-common'
-import { CaipNetworksUtil } from '@reown/appkit-utils'
+import type { CaipNetwork } from '@cotofe/appkit'
+import { ConstantsUtil } from '@cotofe/appkit-common'
+import { CaipNetworksUtil } from '@cotofe/appkit-utils'
 
 import {
   base as baseNetwork,

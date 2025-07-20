@@ -7,8 +7,8 @@ import {
   EventsController,
   type OpenTarget,
   OptionsController
-} from '@reown/appkit-controllers'
-import { customElement } from '@reown/appkit-ui'
+} from '@cotofe/appkit-controllers'
+import { customElement } from '@cotofe/appkit-ui'
 
 import { W3mConnectingWidget } from '../../utils/w3m-connecting-widget/index.js'
 

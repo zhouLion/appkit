@@ -25,8 +25,8 @@
 </template>
 
 <script>
-import { ReownAuthentication } from '@reown/appkit-siwx'
-import { createAppKit, useAppKitTheme } from '@reown/appkit/vue'
+import { ReownAuthentication } from '@cotofe/appkit-siwx'
+import { createAppKit, useAppKitTheme } from '@cotofe/appkit/vue'
 
 import ActionButtonList from './components/ActionButton.vue'
 import Footer from './components/Footer.vue'

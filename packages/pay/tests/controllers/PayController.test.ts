@@ -1,6 +1,6 @@
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 
-import { type Address, type CaipNetworkId, ConstantsUtil, ParseUtil } from '@reown/appkit-common'
+import { type Address, type CaipNetworkId, ConstantsUtil, ParseUtil } from '@cotofe/appkit-common'
 import {
   AccountController,
   ChainController,
@@ -9,8 +9,8 @@ import {
   ModalController,
   RouterController,
   SnackController
-} from '@reown/appkit-controllers'
-import { ProviderUtil } from '@reown/appkit-utils'
+} from '@cotofe/appkit-controllers'
+import { ProviderUtil } from '@cotofe/appkit-utils'
 
 import { PayController } from '../../src/controllers/PayController'
 import { AppKitPayError, AppKitPayErrorCodes, AppKitPayErrorMessages } from '../../src/types/errors'

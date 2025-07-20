@@ -1,6 +1,6 @@
-import { BitcoinAdapter } from '@reown/appkit-adapter-bitcoin'
-import { SolanaAdapter } from '@reown/appkit-adapter-solana'
-import { WagmiAdapter } from '@reown/appkit-adapter-wagmi'
+import { BitcoinAdapter } from '@cotofe/appkit-adapter-bitcoin'
+import { SolanaAdapter } from '@cotofe/appkit-adapter-solana'
+import { WagmiAdapter } from '@cotofe/appkit-adapter-wagmi'
 import {
   AppKitNetwork,
   arbitrum,
@@ -12,7 +12,7 @@ import {
   solana,
   solanaDevnet,
   solanaTestnet
-} from '@reown/appkit/networks'
+} from '@cotofe/appkit/networks'
 import {
   createAppKit,
   useAppKit,
@@ -23,7 +23,7 @@ import {
   useAppKitTheme,
   useDisconnect,
   useWalletInfo
-} from '@reown/appkit/react'
+} from '@cotofe/appkit/react'
 
 export const projectId = process.env.NEXT_PUBLIC_PROJECT_ID || 'b56e18d47c72ab683b10814fe9495694' // this is a public projectId only to use on localhost
 

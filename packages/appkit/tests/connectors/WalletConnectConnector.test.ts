@@ -1,8 +1,8 @@
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 
-import { type CaipNetwork, type ChainNamespace, ConstantsUtil } from '@reown/appkit-common'
-import { ChainController, SIWXUtil } from '@reown/appkit-controllers'
-import { PresetsUtil } from '@reown/appkit-utils'
+import { type CaipNetwork, type ChainNamespace, ConstantsUtil } from '@cotofe/appkit-common'
+import { ChainController, SIWXUtil } from '@cotofe/appkit-controllers'
+import { PresetsUtil } from '@cotofe/appkit-utils'
 
 import { WalletConnectConnector } from '../../src/connectors'
 import { bitcoin, mainnet, solana } from '../../src/networks'

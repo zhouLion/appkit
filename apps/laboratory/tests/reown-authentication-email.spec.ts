@@ -1,6 +1,6 @@
 import { type BrowserContext, test } from '@playwright/test'
 
-import { BASE_URL } from '@reown/appkit-testing'
+import { BASE_URL } from '@cotofe/appkit-testing'
 
 import { ReownAuthenticationModalPage } from './shared/pages/ReownAuthenticationModalPage'
 import { Email } from './shared/utils/email'

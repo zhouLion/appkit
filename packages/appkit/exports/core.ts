@@ -3,8 +3,8 @@ import type { AppKitOptions } from '../src/utils/TypesUtil.js'
 import { PACKAGE_VERSION } from './constants.js'
 
 // -- Utils & Other -----------------------------------------------------
-export type * from '@reown/appkit-controllers'
-export type { CaipNetwork, CaipAddress, CaipNetworkId } from '@reown/appkit-common'
+export type * from '@cotofe/appkit-controllers'
+export type { CaipNetwork, CaipAddress, CaipNetworkId } from '@cotofe/appkit-common'
 
 export type CreateAppKit = Omit<AppKitOptions, 'sdkType' | 'sdkVersion' | 'basic'>
 

@@ -6,7 +6,7 @@ import {
   ConstantsUtil as CommonConstantsUtil,
   ParseUtil,
   type ParsedCaipAddress
-} from '@reown/appkit-common'
+} from '@cotofe/appkit-common'
 
 import type {
   ChainAdapter,

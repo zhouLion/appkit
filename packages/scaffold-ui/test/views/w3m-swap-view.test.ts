@@ -1,7 +1,7 @@
 import { expect, fixture, html } from '@open-wc/testing'
 import { afterEach, beforeEach, describe, it, vi, expect as vitestExpect } from 'vitest'
 
-import { type CaipAddress, type CaipNetwork } from '@reown/appkit-common'
+import { type CaipAddress, type CaipNetwork } from '@cotofe/appkit-common'
 import {
   AccountController,
   ChainController,
@@ -9,8 +9,8 @@ import {
   RouterController,
   SwapController,
   type SwapTokenWithBalance
-} from '@reown/appkit-controllers'
-import { EventsController } from '@reown/appkit-controllers'
+} from '@cotofe/appkit-controllers'
+import { EventsController } from '@cotofe/appkit-controllers'
 
 import { W3mSwapView } from '../../src/views/w3m-swap-view'
 

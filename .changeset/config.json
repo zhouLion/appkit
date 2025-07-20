@@ -4,8 +4,8 @@
   { "repo": "reown-com/appkit" }],
   "commit": false,
   "fixed": [[
-    "@reown/appkit",
-    "@reown/appkit-*"
+    "@cotofe/appkit",
+    "@cotofe/appkit-*"
   ]],
   "linked": [],
   "access": "public",
@@ -15,7 +15,7 @@
     "@examples/*",
     "@apps/*",
     "@apps/browser-extension",
-    "@reown/appkit-adapter-polkadot",
-    "@reown/appkit-ui-new"
+    "@cotofe/appkit-adapter-polkadot",
+    "@cotofe/appkit-ui-new"
   ]
 }

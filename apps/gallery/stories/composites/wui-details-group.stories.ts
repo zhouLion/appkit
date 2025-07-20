@@ -2,8 +2,8 @@ import type { Meta } from '@storybook/web-components'
 
 import { html } from 'lit'
 
-import '@reown/appkit-ui/wui-cta-button'
-import type { WuiDetailsGroup } from '@reown/appkit-ui/wui-details-group'
+import '@cotofe/appkit-ui/wui-cta-button'
+import type { WuiDetailsGroup } from '@cotofe/appkit-ui/wui-details-group'
 
 import '../../components/gallery-container'
 

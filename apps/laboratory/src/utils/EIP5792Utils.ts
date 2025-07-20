@@ -1,8 +1,8 @@
 import { UniversalProvider } from '@walletconnect/universal-provider'
 import { type WalletCapabilities, fromHex } from 'viem'
 
-import type { Address } from '@reown/appkit-common'
-import { W3mFrameProvider } from '@reown/appkit-wallet'
+import type { Address } from '@cotofe/appkit-common'
+import { W3mFrameProvider } from '@cotofe/appkit-wallet'
 
 import { parseJSON } from './CommonUtils'
 import { getChain } from './NetworksUtil'

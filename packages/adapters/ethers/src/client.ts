@@ -1,8 +1,8 @@
 import UniversalProvider from '@walletconnect/universal-provider'
 import { JsonRpcProvider, formatEther } from 'ethers'
 
-import { type AppKitOptions, WcConstantsUtil, WcHelpersUtil } from '@reown/appkit'
-import { ConstantsUtil as CommonConstantsUtil, ParseUtil } from '@reown/appkit-common'
+import { type AppKitOptions, WcConstantsUtil, WcHelpersUtil } from '@cotofe/appkit'
+import { ConstantsUtil as CommonConstantsUtil, ParseUtil } from '@cotofe/appkit-common'
 import {
   AccountController,
   type CombinedProvider,
@@ -13,13 +13,13 @@ import {
   SIWXUtil,
   StorageUtil,
   getPreferredAccountType
-} from '@reown/appkit-controllers'
-import { ConstantsUtil, HelpersUtil, PresetsUtil } from '@reown/appkit-utils'
-import { ProviderUtil } from '@reown/appkit-utils'
-import { type Address, EthersHelpersUtil, type ProviderType } from '@reown/appkit-utils/ethers'
-import type { W3mFrameProvider } from '@reown/appkit-wallet'
-import { AdapterBlueprint } from '@reown/appkit/adapters'
-import { WalletConnectConnector } from '@reown/appkit/connectors'
+} from '@cotofe/appkit-controllers'
+import { ConstantsUtil, HelpersUtil, PresetsUtil } from '@cotofe/appkit-utils'
+import { ProviderUtil } from '@cotofe/appkit-utils'
+import { type Address, EthersHelpersUtil, type ProviderType } from '@cotofe/appkit-utils/ethers'
+import type { W3mFrameProvider } from '@cotofe/appkit-wallet'
+import { AdapterBlueprint } from '@cotofe/appkit/adapters'
+import { WalletConnectConnector } from '@cotofe/appkit/connectors'
 
 import { EthersMethods } from './utils/EthersMethods.js'
 

@@ -1,13 +1,13 @@
 /* eslint-disable max-params */
-import type { OnRampProvider, SocialProvider, SwapProvider } from '@reown/appkit-common'
-import { AlertController, ApiController, ConstantsUtil } from '@reown/appkit-controllers'
+import type { OnRampProvider, SocialProvider, SwapProvider } from '@cotofe/appkit-common'
+import { AlertController, ApiController, ConstantsUtil } from '@cotofe/appkit-controllers'
 import type {
   FeatureConfigMap,
   FeatureID,
   RemoteFeatures,
   TypedFeatureConfig
-} from '@reown/appkit-controllers'
-import type {} from '@reown/appkit-controllers'
+} from '@cotofe/appkit-controllers'
+import type {} from '@cotofe/appkit-controllers'
 
 import type { AppKitOptionsWithSdk } from '../client/appkit-base-client.js'
 

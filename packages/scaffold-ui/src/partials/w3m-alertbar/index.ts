@@ -1,9 +1,9 @@
 import { LitElement, html } from 'lit'
 import { state } from 'lit/decorators.js'
 
-import { AlertController } from '@reown/appkit-controllers'
-import { customElement } from '@reown/appkit-ui'
-import '@reown/appkit-ui/wui-alertbar'
+import { AlertController } from '@cotofe/appkit-controllers'
+import { customElement } from '@cotofe/appkit-ui'
+import '@cotofe/appkit-ui/wui-alertbar'
 
 import styles from './styles.js'
 

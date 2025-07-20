@@ -2,7 +2,7 @@ import { LitElement, html } from 'lit'
 import { property, state } from 'lit/decorators.js'
 import { ifDefined } from 'lit/directives/if-defined.js'
 
-import { ConstantsUtil as CommonConstantsUtil } from '@reown/appkit-common'
+import { ConstantsUtil as CommonConstantsUtil } from '@cotofe/appkit-common'
 import {
   AlertController,
   ChainController,
@@ -13,14 +13,14 @@ import {
   RouterController,
   type SocialProvider,
   type WalletGuideType
-} from '@reown/appkit-controllers'
-import { executeSocialLogin } from '@reown/appkit-controllers/utils'
-import { CoreHelperUtil } from '@reown/appkit-controllers/utils'
-import { customElement } from '@reown/appkit-ui'
-import '@reown/appkit-ui/wui-flex'
-import '@reown/appkit-ui/wui-list-social'
-import '@reown/appkit-ui/wui-logo-select'
-import { W3mFrameProvider } from '@reown/appkit-wallet'
+} from '@cotofe/appkit-controllers'
+import { executeSocialLogin } from '@cotofe/appkit-controllers/utils'
+import { CoreHelperUtil } from '@cotofe/appkit-controllers/utils'
+import { customElement } from '@cotofe/appkit-ui'
+import '@cotofe/appkit-ui/wui-flex'
+import '@cotofe/appkit-ui/wui-list-social'
+import '@cotofe/appkit-ui/wui-logo-select'
+import { W3mFrameProvider } from '@cotofe/appkit-wallet'
 
 import styles from './styles.js'
 

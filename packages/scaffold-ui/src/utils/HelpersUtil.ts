@@ -1,5 +1,5 @@
-import { type ChainNamespace, ConstantsUtil as CommonConstantsUtil } from '@reown/appkit-common'
-import { OptionsController } from '@reown/appkit-controllers'
+import { type ChainNamespace, ConstantsUtil as CommonConstantsUtil } from '@cotofe/appkit-common'
+import { OptionsController } from '@cotofe/appkit-controllers'
 
 import { ConstantsUtil } from './ConstantsUtil.js'
 

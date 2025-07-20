@@ -1,5 +1,5 @@
 {
-  "name": "@reown/appkit-wallet",
+  "name": "@cotofe/appkit-wallet",
   "version": "1.7.15",
   "sideEffects": false,
   "type": "module",
@@ -31,20 +31,20 @@
     "test": "vitest run --dir tests"
   },
   "dependencies": {
-    "@reown/appkit-common": "workspace:*",
-    "@reown/appkit-polyfills": "workspace:*",
+    "@cotofe/appkit-common": "workspace:*",
+    "@cotofe/appkit-polyfills": "workspace:*",
     "@walletconnect/logger": "2.1.2",
     "zod": "3.22.4"
   },
   "author": "Reown (https://discord.gg/reown)",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/reown-com/appkit",
+  "homepage": "https://github.com/zhouLion/appkit",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reown-com/appkit.git"
+    "url": "git+https://github.com/zhouLion/appkit.git"
   },
   "bugs": {
-    "url": "https://github.com/reown-com/appkit/issues"
+    "url": "https://github.com/zhouLion/appkit/issues"
   },
   "devDependencies": {
     "@vitest/coverage-v8": "2.1.9",

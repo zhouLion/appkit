@@ -7,11 +7,11 @@ import {
   RouterController,
   SendController,
   SwapController
-} from '@reown/appkit-controllers'
-import { customElement } from '@reown/appkit-ui'
-import '@reown/appkit-ui/wui-button'
-import '@reown/appkit-ui/wui-flex'
-import '@reown/appkit-ui/wui-icon-box'
+} from '@cotofe/appkit-controllers'
+import { customElement } from '@cotofe/appkit-ui'
+import '@cotofe/appkit-ui/wui-button'
+import '@cotofe/appkit-ui/wui-flex'
+import '@cotofe/appkit-ui/wui-icon-box'
 
 import '../../partials/w3m-input-address/index.js'
 import '../../partials/w3m-input-token/index.js'

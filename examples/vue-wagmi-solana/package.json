@@ -8,9 +8,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@reown/appkit": "workspace:*",
-    "@reown/appkit-adapter-solana": "workspace:*",
-    "@reown/appkit-adapter-wagmi": "workspace:*",
+    "@cotofe/appkit": "workspace:*",
+    "@cotofe/appkit-adapter-solana": "workspace:*",
+    "@cotofe/appkit-adapter-wagmi": "workspace:*",
     "@solana/wallet-adapter-backpack": "0.1.14",
     "@tanstack/vue-query": "5.75.5",
     "@wagmi/connectors": "5.8.6",

@@ -3,8 +3,8 @@
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { WagmiProvider } from 'wagmi'
 
-import { WagmiAdapter } from '@reown/appkit-adapter-wagmi'
-import { type AppKitNetwork, base, baseSepolia, sepolia } from '@reown/appkit/networks'
+import { WagmiAdapter } from '@cotofe/appkit-adapter-wagmi'
+import { type AppKitNetwork, base, baseSepolia, sepolia } from '@cotofe/appkit/networks'
 
 import { AppKitButtons } from '@/src/components/AppKitButtons'
 import { WagmiPermissionsSyncTest } from '@/src/components/Wagmi/WagmiPermissionsSyncTest'

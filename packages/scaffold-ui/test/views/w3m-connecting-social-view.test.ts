@@ -3,7 +3,7 @@ import { beforeAll, describe, expect, it, vi } from 'vitest'
 
 import { html } from 'lit'
 
-import type { ChainNamespace, Connection } from '@reown/appkit-common'
+import type { ChainNamespace, Connection } from '@cotofe/appkit-common'
 import {
   AccountController,
   type AuthConnector,
@@ -13,7 +13,7 @@ import {
   ModalController,
   OptionsController,
   RouterController
-} from '@reown/appkit-controllers'
+} from '@cotofe/appkit-controllers'
 
 import { W3mConnectingSocialView } from '../../src/views/w3m-connecting-social-view'
 

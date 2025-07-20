@@ -2,8 +2,8 @@ import type UniversalProvider from '@walletconnect/universal-provider'
 import { proxy, ref, subscribe } from 'valtio/vanilla'
 import { subscribeKey as subKey } from 'valtio/vanilla/utils'
 
-import type { ChainNamespace } from '@reown/appkit-common'
-import type { ChainControllerState, ConnectorType } from '@reown/appkit-controllers'
+import type { ChainNamespace } from '@cotofe/appkit-common'
+import type { ChainControllerState, ConnectorType } from '@cotofe/appkit-controllers'
 
 type StateKey = keyof ProviderStoreUtilState
 

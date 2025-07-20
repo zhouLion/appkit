@@ -1,8 +1,8 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 
-import type { ChainNamespace, SdkVersion } from '@reown/appkit-common'
-import { AlertController, ApiController, OptionsController } from '@reown/appkit-controllers'
-import { ErrorUtil } from '@reown/appkit-utils'
+import type { ChainNamespace, SdkVersion } from '@cotofe/appkit-common'
+import { AlertController, ApiController, OptionsController } from '@cotofe/appkit-controllers'
+import { ErrorUtil } from '@cotofe/appkit-utils'
 
 import type { AdapterBlueprint } from '../../src/adapters'
 import { AppKitBaseClient, type AppKitOptionsWithSdk } from '../../src/client/appkit-base-client'

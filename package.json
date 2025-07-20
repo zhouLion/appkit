@@ -1,13 +1,13 @@
 {
-  "name": "@reown/appkit-monorepo",
+  "name": "@cotofe/appkit-monorepo",
   "version": "1.7.1",
   "private": true,
   "type": "module",
   "author": "Reown (https://discord.gg/reown)",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/reown-com/appkit",
+  "homepage": "https://github.com/zhouLion/appkit",
   "bugs": {
-    "url": "https://github.com/reown-com/appkit/issues"
+    "url": "https://github.com/zhouLion/appkit/issues"
   },
   "scripts": {
     "prebuild": "node scripts/inject-version.js",

@@ -1,5 +1,5 @@
 {
-  "name": "@reown/appkit-adapter-polkadot",
+  "name": "@cotofe/appkit-adapter-polkadot",
   "private": true,
   "version": "1.5.2",
   "scripts": {
@@ -11,9 +11,9 @@
     "test": "vitest run --dir tests --coverage.enabled=true --coverage.reporter=json --coverage.reporter=json-summary --coverage.reportOnFailure=true"
   },
   "dependencies": {
-    "@reown/appkit": "workspace:*",
-    "@reown/appkit-common": "workspace:*",
-    "@reown/appkit-controllers": "workspace:*"
+    "@cotofe/appkit": "workspace:*",
+    "@cotofe/appkit-common": "workspace:*",
+    "@cotofe/appkit-controllers": "workspace:*"
   },
   "devDependencies": {
     "vitest": "3.1.3",

@@ -11,14 +11,14 @@ import {
   SnackController,
   ThemeController,
   getPreferredAccountType
-} from '@reown/appkit-controllers'
-import { UiHelperUtil, customElement } from '@reown/appkit-ui'
-import '@reown/appkit-ui/wui-chip-button'
-import '@reown/appkit-ui/wui-compatible-network'
-import '@reown/appkit-ui/wui-flex'
-import '@reown/appkit-ui/wui-qr-code'
-import '@reown/appkit-ui/wui-text'
-import { W3mFrameRpcConstants } from '@reown/appkit-wallet/utils'
+} from '@cotofe/appkit-controllers'
+import { UiHelperUtil, customElement } from '@cotofe/appkit-ui'
+import '@cotofe/appkit-ui/wui-chip-button'
+import '@cotofe/appkit-ui/wui-compatible-network'
+import '@cotofe/appkit-ui/wui-flex'
+import '@cotofe/appkit-ui/wui-qr-code'
+import '@cotofe/appkit-ui/wui-text'
+import { W3mFrameRpcConstants } from '@cotofe/appkit-wallet/utils'
 
 import styles from './styles.js'
 

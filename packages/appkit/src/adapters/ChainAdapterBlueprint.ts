@@ -9,7 +9,7 @@ import {
   type Connection,
   type Hex,
   type ParsedCaipAddress
-} from '@reown/appkit-common'
+} from '@cotofe/appkit-common'
 import {
   AccountController,
   type AccountControllerState,
@@ -21,11 +21,11 @@ import {
   type Tokens,
   type WriteContractArgs,
   getPreferredAccountType
-} from '@reown/appkit-controllers'
-import { type CombinedProvider, type Provider } from '@reown/appkit-controllers'
-import { HelpersUtil, PresetsUtil } from '@reown/appkit-utils'
-import { EthersHelpersUtil } from '@reown/appkit-utils/ethers'
-import type { W3mFrameProvider, W3mFrameTypes } from '@reown/appkit-wallet'
+} from '@cotofe/appkit-controllers'
+import { type CombinedProvider, type Provider } from '@cotofe/appkit-controllers'
+import { HelpersUtil, PresetsUtil } from '@cotofe/appkit-utils'
+import { EthersHelpersUtil } from '@cotofe/appkit-utils/ethers'
+import type { W3mFrameProvider, W3mFrameTypes } from '@cotofe/appkit-wallet'
 
 import type { AppKitBaseClient } from '../client/appkit-base-client.js'
 import { ConnectionManager } from '../connections/ConnectionManager.js'

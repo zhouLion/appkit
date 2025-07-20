@@ -1,7 +1,7 @@
 import { LitElement, html } from 'lit'
 import { state } from 'lit/decorators.js'
 
-import { type ChainNamespace, ConstantsUtil as CommonConstantsUtil } from '@reown/appkit-common'
+import { type ChainNamespace, ConstantsUtil as CommonConstantsUtil } from '@cotofe/appkit-common'
 import {
   AccountController,
   ChainController,
@@ -15,15 +15,15 @@ import {
   type SocialProvider,
   StorageUtil,
   getPreferredAccountType
-} from '@reown/appkit-controllers'
-import { customElement } from '@reown/appkit-ui'
-import '@reown/appkit-ui/wui-balance'
-import '@reown/appkit-ui/wui-flex'
-import '@reown/appkit-ui/wui-icon-button'
-import '@reown/appkit-ui/wui-tabs'
-import '@reown/appkit-ui/wui-tooltip'
-import '@reown/appkit-ui/wui-wallet-switch'
-import { W3mFrameRpcConstants } from '@reown/appkit-wallet/utils'
+} from '@cotofe/appkit-controllers'
+import { customElement } from '@cotofe/appkit-ui'
+import '@cotofe/appkit-ui/wui-balance'
+import '@cotofe/appkit-ui/wui-flex'
+import '@cotofe/appkit-ui/wui-icon-button'
+import '@cotofe/appkit-ui/wui-tabs'
+import '@cotofe/appkit-ui/wui-tooltip'
+import '@cotofe/appkit-ui/wui-wallet-switch'
+import { W3mFrameRpcConstants } from '@cotofe/appkit-wallet/utils'
 
 import { ConnectorUtil } from '../../utils/ConnectorUtil.js'
 import { HelpersUtil } from '../../utils/HelpersUtil.js'

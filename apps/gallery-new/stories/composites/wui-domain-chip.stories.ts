@@ -2,8 +2,8 @@ import type { Meta } from '@storybook/web-components'
 
 import { html } from 'lit'
 
-import '@reown/appkit-ui-new/src/composites/wui-domain-chip'
-import type { WuiDomainChip } from '@reown/appkit-ui-new/src/composites/wui-domain-chip'
+import '@cotofe/appkit-ui-new/src/composites/wui-domain-chip'
+import type { WuiDomainChip } from '@cotofe/appkit-ui-new/src/composites/wui-domain-chip'
 
 import { domainChipVariants } from '../../utils/PresetUtils'
 

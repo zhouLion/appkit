@@ -24,14 +24,14 @@ vi.mock('ethers', async () => {
 })
 
 // Mock WcHelpersUtil
-vi.mock('@reown/appkit', () => ({
+vi.mock('@cotofe/appkit', () => ({
   WcHelpersUtil: {
     resolveReownName: vi.fn()
   }
 }))
 
 // Mock isReownName
-vi.mock('@reown/appkit-common', () => ({
+vi.mock('@cotofe/appkit-common', () => ({
   isReownName: vi.fn()
 }))
 

@@ -9,13 +9,13 @@ import {
   ConnectorController,
   ModalController,
   ThemeController
-} from '@reown/appkit-controllers'
-import { customElement } from '@reown/appkit-ui'
-import '@reown/appkit-ui/wui-flex'
-import '@reown/appkit-ui/wui-icon'
-import '@reown/appkit-ui/wui-loading-thumbnail'
-import '@reown/appkit-ui/wui-text'
-import '@reown/appkit-ui/wui-wallet-image'
+} from '@cotofe/appkit-controllers'
+import { customElement } from '@cotofe/appkit-ui'
+import '@cotofe/appkit-ui/wui-flex'
+import '@cotofe/appkit-ui/wui-icon'
+import '@cotofe/appkit-ui/wui-loading-thumbnail'
+import '@cotofe/appkit-ui/wui-text'
+import '@cotofe/appkit-ui/wui-wallet-image'
 
 import { PayController } from '../../controllers/PayController.js'
 import styles from './styles.js'

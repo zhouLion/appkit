@@ -2,9 +2,9 @@ import type {
   AppKitOptions,
   ConnectionControllerClient,
   NetworkControllerClient
-} from '@reown/appkit'
-import type { AdapterType, CaipNetwork, ChainNamespace } from '@reown/appkit-common'
-import { ConstantsUtil as CommonConstantsUtil } from '@reown/appkit-common'
+} from '@cotofe/appkit'
+import type { AdapterType, CaipNetwork, ChainNamespace } from '@cotofe/appkit-common'
+import { ConstantsUtil as CommonConstantsUtil } from '@cotofe/appkit-common'
 
 export class PolkadotClient {
   // Metadata

@@ -4,9 +4,9 @@ import {
   CoreHelperUtil,
   OptionsController,
   StorageUtil
-} from '@reown/appkit-controllers'
-import type { ConnectMethod, Connector, Features, WcWallet } from '@reown/appkit-controllers'
-import { HelpersUtil } from '@reown/appkit-utils'
+} from '@cotofe/appkit-controllers'
+import type { ConnectMethod, Connector, Features, WcWallet } from '@cotofe/appkit-controllers'
+import { HelpersUtil } from '@cotofe/appkit-utils'
 
 import { ConnectorUtil } from './ConnectorUtil.js'
 import { ConstantsUtil } from './ConstantsUtil.js'

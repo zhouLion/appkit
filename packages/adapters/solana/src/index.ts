@@ -1,4 +1,4 @@
-import '@reown/appkit-polyfills'
+import '@cotofe/appkit-polyfills'
 
 export { SolanaAdapter } from './client.js'
 

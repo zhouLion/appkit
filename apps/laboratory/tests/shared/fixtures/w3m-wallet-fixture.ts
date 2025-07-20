@@ -1,6 +1,6 @@
 /* eslint no-console: 0 */
-import { WalletPage, WalletValidator } from '@reown/appkit-testing'
-import { DEFAULT_SESSION_PARAMS } from '@reown/appkit-testing'
+import { WalletPage, WalletValidator } from '@cotofe/appkit-testing'
+import { DEFAULT_SESSION_PARAMS } from '@cotofe/appkit-testing'
 
 import { timeEnd, timeStart } from '../utils/logs'
 import { testM as base, testMultiChainM as multiChain, testMSiwe as siwe } from './w3m-fixture'

@@ -2,8 +2,8 @@ import type { Meta } from '@storybook/web-components'
 
 import { html } from 'lit'
 
-import '@reown/appkit-ui-new/src/components/wui-card'
-import type { WuiCard } from '@reown/appkit-ui-new/src/components/wui-card'
+import '@cotofe/appkit-ui-new/src/components/wui-card'
+import type { WuiCard } from '@cotofe/appkit-ui-new/src/components/wui-card'
 
 import '../../components/gallery-placeholder'
 

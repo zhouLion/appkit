@@ -11,9 +11,9 @@ import {
   ConnectorControllerUtil,
   ModalController,
   RouterController
-} from '@reown/appkit-controllers'
-import { customElement } from '@reown/appkit-ui'
-import '@reown/appkit-ui/wui-wallet-button'
+} from '@cotofe/appkit-controllers'
+import { customElement } from '@cotofe/appkit-ui'
+import '@cotofe/appkit-ui/wui-wallet-button'
 
 import { ApiController } from '../../controllers/ApiController.js'
 import { ConstantsUtil } from '../../utils/ConstantsUtil.js'

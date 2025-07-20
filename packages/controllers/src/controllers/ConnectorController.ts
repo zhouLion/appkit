@@ -1,8 +1,8 @@
 import { proxy, ref, snapshot, subscribe as sub } from 'valtio/vanilla'
 import { subscribeKey as subKey } from 'valtio/vanilla/utils'
 
-import { type ChainNamespace, ConstantsUtil, getW3mThemeVariables } from '@reown/appkit-common'
-import { W3mFrameRpcConstants } from '@reown/appkit-wallet/utils'
+import { type ChainNamespace, ConstantsUtil, getW3mThemeVariables } from '@cotofe/appkit-common'
+import { W3mFrameRpcConstants } from '@cotofe/appkit-wallet/utils'
 
 import { getPreferredAccountType } from '../utils/ChainControllerUtil.js'
 import { MobileWalletUtil } from '../utils/MobileWallet.js'

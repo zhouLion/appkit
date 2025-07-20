@@ -3,15 +3,15 @@ import { afterEach, beforeAll, beforeEach, describe, expect, it, vi } from 'vite
 
 import { html } from 'lit'
 
-import { ConstantsUtil as CommonConstantsUtil } from '@reown/appkit-common'
-import type { ConnectorType, ConnectorWithProviders } from '@reown/appkit-controllers'
+import { ConstantsUtil as CommonConstantsUtil } from '@cotofe/appkit-common'
+import type { ConnectorType, ConnectorWithProviders } from '@cotofe/appkit-controllers'
 import {
   ApiController,
   ConnectorController,
   CoreHelperUtil,
   RouterController
-} from '@reown/appkit-controllers'
-import { ConstantsUtil } from '@reown/appkit-utils'
+} from '@cotofe/appkit-controllers'
+import { ConstantsUtil } from '@cotofe/appkit-utils'
 
 import { W3mConnectAnnouncedWidget } from '../../src/partials/w3m-connect-announced-widget'
 import { HelpersUtil } from '../utils/HelpersUtil'

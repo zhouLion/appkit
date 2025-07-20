@@ -2,9 +2,9 @@
 
 #### 🔗 [Website](https://reown.com/appkit)
 
-# AppKit Experimental (@reown/appkit-experimental)
+# AppKit Experimental (@cotofe/appkit-experimental)
 
-The @reown/appkit-experimental package provides a set of cutting-edge, experimental features for Web3 developers. This package serves as a testing ground for innovative concepts and implementations that are not yet widely adopted or standardized in the blockchain ecosystem.
+The @cotofe/appkit-experimental package provides a set of cutting-edge, experimental features for Web3 developers. This package serves as a testing ground for innovative concepts and implementations that are not yet widely adopted or standardized in the blockchain ecosystem.
 
 ## Key Characteristics
 
@@ -15,9 +15,9 @@ The @reown/appkit-experimental package provides a set of cutting-edge, experimen
 ## Installation
 
 ```bash
-npm install @reown/appkit-experimental
+npm install @cotofe/appkit-experimental
 ```
 
 ## Smart Session
 
-The `@reown/appkit-experimental/smart-session` allows developers to easily integrate session-based permission handling within their dApps. Using the `grantPermissions` method, dApps can send permission requests to connected wallets.
+The `@cotofe/appkit-experimental/smart-session` allows developers to easily integrate session-based permission handling within their dApps. Using the `grantPermissions` method, dApps can send permission requests to connected wallets.

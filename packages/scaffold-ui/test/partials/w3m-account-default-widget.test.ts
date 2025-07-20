@@ -3,8 +3,8 @@ import { afterEach, beforeAll, beforeEach, describe, expect, it, vi } from 'vite
 
 import { html } from 'lit'
 
-import { ConstantsUtil as CommonConstantsUtil } from '@reown/appkit-common'
-import { AccountController, ChainController, OptionsController } from '@reown/appkit-controllers'
+import { ConstantsUtil as CommonConstantsUtil } from '@cotofe/appkit-common'
+import { AccountController, ChainController, OptionsController } from '@cotofe/appkit-controllers'
 
 import { W3mAccountDefaultWidget } from '../../src/partials/w3m-account-default-widget'
 import { HelpersUtil } from '../utils/HelpersUtil'

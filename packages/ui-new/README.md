@@ -4,10 +4,10 @@ The full stack toolkit to build onchain app UX.
 
 Onboard millions of users to your app in minutes with social & email embedded wallets, web3 wallet login, crypto swaps, on-ramp and more.
 
-🛝 [Demo](https://demo.reown.com) ・🧪 [Laboratory](https://appkit-lab.reown.com) ・📚 [Documentation](https://docs.reown.com/appkit/overview) ・💻 [AppKit Web Examples](https://github.com/reown-com/appkit-web-examples) ・🔗 [Website](https://reown.com/appkit) ・🛟 [Contact us on Discord](https://discord.gg/reown)
+🛝 [Demo](https://demo.reown.com) ・🧪 [Laboratory](https://appkit-lab.reown.com) ・📚 [Documentation](https://docs.reown.com/appkit/overview) ・💻 [AppKit Web Examples](https://github.com/zhouLion/appkit-web-examples) ・🔗 [Website](https://reown.com/appkit) ・🛟 [Contact us on Discord](https://discord.gg/reown)
 
 <p align="center">
-  <img src="https://github.com/reown-com/appkit/blob/HEAD/.github/assets/header.png" alt="" border="0">
+  <img src="https://github.com/zhouLion/appkit/blob/HEAD/.github/assets/header.png" alt="" border="0">
 </p>
 
 ## Features

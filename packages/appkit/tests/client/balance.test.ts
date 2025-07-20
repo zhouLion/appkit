@@ -1,7 +1,7 @@
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 
-import { NetworkUtil } from '@reown/appkit-common'
-import { AccountController } from '@reown/appkit-controllers'
+import { NetworkUtil } from '@cotofe/appkit-common'
+import { AccountController } from '@cotofe/appkit-controllers'
 
 import { AppKit } from '../../src/client/appkit.js'
 import { mockEvmAdapter } from '../mocks/Adapter.js'

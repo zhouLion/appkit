@@ -8,14 +8,14 @@ import {
   SendController,
   SnackController,
   getPreferredAccountType
-} from '@reown/appkit-controllers'
-import { UiHelperUtil, customElement } from '@reown/appkit-ui'
-import '@reown/appkit-ui/wui-button'
-import '@reown/appkit-ui/wui-flex'
-import '@reown/appkit-ui/wui-icon'
-import '@reown/appkit-ui/wui-preview-item'
-import '@reown/appkit-ui/wui-text'
-import { W3mFrameRpcConstants } from '@reown/appkit-wallet/utils'
+} from '@cotofe/appkit-controllers'
+import { UiHelperUtil, customElement } from '@cotofe/appkit-ui'
+import '@cotofe/appkit-ui/wui-button'
+import '@cotofe/appkit-ui/wui-flex'
+import '@cotofe/appkit-ui/wui-icon'
+import '@cotofe/appkit-ui/wui-preview-item'
+import '@cotofe/appkit-ui/wui-text'
+import { W3mFrameRpcConstants } from '@cotofe/appkit-wallet/utils'
 
 import '../../partials/w3m-wallet-send-details/index.js'
 import styles from './styles.js'

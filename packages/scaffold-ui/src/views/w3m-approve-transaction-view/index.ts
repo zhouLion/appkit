@@ -1,9 +1,9 @@
 import { LitElement, html } from 'lit'
 import { state } from 'lit/decorators.js'
 
-import { getW3mThemeVariables } from '@reown/appkit-common'
-import { ConnectorController, ModalController, ThemeController } from '@reown/appkit-controllers'
-import { customElement } from '@reown/appkit-ui'
+import { getW3mThemeVariables } from '@cotofe/appkit-common'
+import { ConnectorController, ModalController, ThemeController } from '@cotofe/appkit-controllers'
+import { customElement } from '@cotofe/appkit-ui'
 
 import styles from './styles.js'
 

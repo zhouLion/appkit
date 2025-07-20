@@ -10,8 +10,8 @@ import {
   Tooltip
 } from '@chakra-ui/react'
 
-import { solana, solanaDevnet, solanaTestnet } from '@reown/appkit/networks'
-import { useAppKitAccount, useAppKitNetwork } from '@reown/appkit/react'
+import { solana, solanaDevnet, solanaTestnet } from '@cotofe/appkit/networks'
+import { useAppKitAccount, useAppKitNetwork } from '@cotofe/appkit/react'
 
 import { SolanaSendTransactionTest } from './SolanaSendTransactionTest'
 import { SolanaSignAllTransactionsTest } from './SolanaSignAllTransactionsTest'

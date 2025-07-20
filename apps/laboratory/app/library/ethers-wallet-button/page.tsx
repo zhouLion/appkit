@@ -1,7 +1,7 @@
 'use client'
 
-import { EthersAdapter } from '@reown/appkit-adapter-ethers'
-import { mainnet } from '@reown/appkit/networks'
+import { EthersAdapter } from '@cotofe/appkit-adapter-ethers'
+import { mainnet } from '@cotofe/appkit/networks'
 
 import { AppKitButtons } from '@/src/components/AppKitButtons'
 import { AppKitInfo } from '@/src/components/AppKitInfo'

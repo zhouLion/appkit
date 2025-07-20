@@ -1,9 +1,9 @@
 import { browser } from '$app/environment'
 import { http } from 'viem'
 
-import { createAppKit } from '@reown/appkit'
-import { WagmiAdapter } from '@reown/appkit-adapter-wagmi'
-import { arbitrum, mainnet, optimism, polygon } from '@reown/appkit/networks'
+import { createAppKit } from '@cotofe/appkit'
+import { WagmiAdapter } from '@cotofe/appkit-adapter-wagmi'
+import { arbitrum, mainnet, optimism, polygon } from '@cotofe/appkit/networks'
 
 // Only initialize in browser environment
 let modal: ReturnType<typeof createAppKit> | undefined = undefined

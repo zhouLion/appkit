@@ -1,5 +1,5 @@
-import { ConstantsUtil as CommonConstantsUtil } from '@reown/appkit-common'
-import type { ConnectorType } from '@reown/appkit-controllers'
+import { ConstantsUtil as CommonConstantsUtil } from '@cotofe/appkit-common'
+import type { ConnectorType } from '@cotofe/appkit-controllers'
 
 import { ConstantsUtil } from './ConstantsUtil.js'
 

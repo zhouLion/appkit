@@ -1,5 +1,5 @@
 {
-  "name": "@reown/appkit-cli",
+  "name": "@cotofe/appkit-cli",
   "version": "1.7.15",
   "sideEffects": false,
   "description": "Reown AppKit CLI",

@@ -1,5 +1,5 @@
-import type { CaipNetworkId, ChainNamespace } from '@reown/appkit-common'
-import { ParseUtil } from '@reown/appkit-common'
+import type { CaipNetworkId, ChainNamespace } from '@cotofe/appkit-common'
+import { ParseUtil } from '@cotofe/appkit-common'
 
 const SUPPORT_PAY_WITH_WALLET_CHAIN_NAMESPACES = ['eip155', 'solana']
 
