@@ -1,5 +1,20 @@
 # @cotofe/appkit-ui
 
+## 2.0.0
+
+### Major Changes
+
+- [`c1ebac9`](https://github.com/reown-com/appkit/commit/c1ebac94e41665303e361bb3c34df1b5345c4340) Thanks [@zhouLion](https://github.com/zhouLion)! - rename scope to cotofe
+
+### Patch Changes
+
+- [#4497](https://github.com/reown-com/appkit/pull/4497) [`cce9775`](https://github.com/reown-com/appkit/commit/cce97754c2c13411df65826adf99550bc5ad0f8c) Thanks [@venturars](https://github.com/venturars)! - Exports type definitions of Base class for better TS support when using hooks
+
+- Updated dependencies [[`7788000`](https://github.com/reown-com/appkit/commit/7788000628211880cf982f9b94b076ac90144114), [`cce9775`](https://github.com/reown-com/appkit/commit/cce97754c2c13411df65826adf99550bc5ad0f8c), [`c1ebac9`](https://github.com/reown-com/appkit/commit/c1ebac94e41665303e361bb3c34df1b5345c4340), [`541318b`](https://github.com/reown-com/appkit/commit/541318bff54891503cfef10e194aaf22931fc01e)]:
+  - @cotofe/appkit-controllers@2.0.0
+  - @cotofe/appkit-common@2.0.0
+  - @cotofe/appkit-wallet@2.0.0
+
 ## 1.7.15
 
 ### Patch Changes

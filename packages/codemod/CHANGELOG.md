@@ -1,5 +1,15 @@
 # @cotofe/appkit-experimental
 
+## 2.0.0
+
+### Major Changes
+
+- [`c1ebac9`](https://github.com/reown-com/appkit/commit/c1ebac94e41665303e361bb3c34df1b5345c4340) Thanks [@zhouLion](https://github.com/zhouLion)! - rename scope to cotofe
+
+### Patch Changes
+
+- [#4497](https://github.com/reown-com/appkit/pull/4497) [`cce9775`](https://github.com/reown-com/appkit/commit/cce97754c2c13411df65826adf99550bc5ad0f8c) Thanks [@venturars](https://github.com/venturars)! - Exports type definitions of Base class for better TS support when using hooks
+
 ## 1.7.15
 
 ## 1.7.14
